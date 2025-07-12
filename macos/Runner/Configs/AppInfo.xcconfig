@@ -8,7 +8,7 @@
 PRODUCT_NAME = ut_ad_leika
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = ut.ad.leika.utAdLeika
+PRODUCT_BUNDLE_IDENTIFIER = ut.ad.leika
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2025 ut.ad.leika. All rights reserved.
