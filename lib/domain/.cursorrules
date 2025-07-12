@@ -1,0 +1,70 @@
+# Domain Layer Rules
+
+You are working in the **DOMAIN LAYER** - the core business logic layer.
+
+## Domain Layer Responsibilities
+- Define **Entities** that represent core business concepts
+- Create **Value Objects** for validation, parsing, and formatting
+- Define **Repository Interfaces** (contracts) - no implementations
+- Contain pure business logic with **NO external dependencies**
+- Define **Failures** and domain-specific exceptions
+
+## What BELONGS in Domain:
+- Entities with business rules and invariants
+- Value Objects (EmailAddress, UserId, etc.)
+- Repository interfaces (I*Repository)
+- Domain events and business rules
+- Enums and domain constants
+- Pure business logic functions
+
+## What NEVER belongs in Domain:
+- UI components or widgets
+- HTTP clients or external APIs
+- Database implementations
+- Platform-specific code
+- Framework dependencies (except Dart core)
+- Cubits or state management
+- Infrastructure concerns
+
+## Value Objects Rules:
+- ALWAYS use Value Objects for domain primitives
+- **Strict null-safety throughout** - no nullable types unless absolutely necessary
+- Validate in constructor, fail fast with clear errors
+- Make them immutable and comparable
+- Include parsing, formatting, and validation logic
+- No external dependencies allowed
+
+## Entity Rules:
+- Rich domain models with business logic
+- Validate business rules in entity methods
+- Use Value Objects as entity properties
+- Keep entities focused on single responsibility
+- No infrastructure concerns
+
+## Repository Interfaces:
+- Define contracts, not implementations
+- Return domain entities, not DTOs
+- Use abstract classes or pure interfaces
+- No dependencies on infrastructure
+- Focus on domain needs, not data source details
+
+ALWAYS use:
+- Value Objects for all domain primitives
+- Rich entities with business logic
+- Pure interfaces for repositories
+- Immutable domain objects
+- Clear domain-specific failures
+
+## Testing Strategy:
+- **BDD-style tests with builder pattern**
+- Use offline service implementations - no mocks required
+- Focus on business rule validation
+- Test edge cases and domain invariants
+- Keep tests pure and deterministic
+
+NEVER use:
+- External dependencies
+- Infrastructure implementations
+- UI framework imports
+- Database or HTTP specific code
+- Mutable domain objects 

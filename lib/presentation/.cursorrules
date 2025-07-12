@@ -1,0 +1,105 @@
+# Presentation Layer Rules
+
+You are working in the **PRESENTATION LAYER** - the user interface and interaction layer.
+
+## Presentation Layer Responsibilities
+- **UI Components** following Atomic Design (atoms, molecules, organisms, templates, pages)
+- User interaction handling and input validation
+- Theme and styling management
+- Navigation and routing
+- Accessibility implementation
+- UI state presentation (no business logic)
+
+## Atomic Design Structure:
+- **Atoms**: Basic UI elements (buttons, inputs, icons, text)
+- **Molecules**: Simple combinations of atoms (search bar, card header)
+- **Organisms**: Complex UI sections (app bar, navigation, forms)
+- **Templates**: Page layouts without specific content
+- **Pages**: Complete screens with specific content and Cubit integration
+
+## What BELONGS in Presentation:
+- Flutter widgets and UI components
+- BlocBuilder/BlocSelector for state subscription
+- Theme definitions and styling
+- Navigation logic and route definitions
+- Accessibility widgets and semantics
+- Input validation and formatting (UI level)
+- Animation and transition logic
+
+## What NEVER belongs in Presentation:
+- Business logic or domain rules
+- Direct repository or service calls
+- Data persistence or caching
+- HTTP requests or external API calls
+- Complex state management (use Cubits)
+- Database operations
+
+## Widget Rules:
+- Keep widgets **stateless** unless absolutely necessary
+- **ALWAYS use `const` constructors** - critical for Flutter performance
+- **NEVER create methods that return widgets** - create dedicated widget classes instead
+- Use BlocBuilder/BlocSelector to subscribe to Cubit state
+- Separate widget logic into focused, reusable components
+- Follow atomic design hierarchy for organization
+- **Extract constants for ALL literals** - no magic numbers or strings in code
+- Implement proper accessibility semantics
+
+## Widget Organization:
+- **Extract complex UI into separate widget classes** in `feature/widgets/` folder
+- **Use composition over widget-returning methods** for better performance and testability
+- **Follow naming convention**: `FeatureSpecificWidget` (e.g., `LocationCard`, `ProfileHeader`)
+- **Keep widget files focused** - one main widget per file with related helper widgets
+
+## State Management in UI:
+- NEVER use StatefulWidget for business logic
+- **UI never pulls—always subscribes** via BlocBuilder/BlocSelector
+- Subscribe to Cubits via BlocBuilder/BlocSelector
+- Only use StatefulWidget for pure UI state (animations, focus, etc.)
+- Extract complex widget logic into separate classes
+- Use BuildContext appropriately and avoid passing it down
+
+## Styling and Theme:
+- Use centralized theme definitions
+- Extract colors, typography, and spacing into theme classes
+- Follow consistent design system patterns
+- Use responsive design principles
+- Implement dark/light theme support
+- Use semantic color names, not literal values
+
+## Navigation:
+- Use proper navigation service pattern
+- Handle deep linking and route parameters
+- Implement proper back button behavior
+- Use named routes for maintainability
+- Handle navigation errors gracefully
+
+## Accessibility:
+- Add proper semantics to all interactive elements
+- Implement keyboard navigation support
+- Use sufficient color contrast ratios
+- Add alternative text for images and icons
+- Test with screen readers
+- Support different text sizes
+
+## Input Handling:
+- Validate user input at UI level for immediate feedback
+- Use proper input formatters and masks
+- Implement debouncing for search inputs
+- Handle keyboard actions appropriately
+- Provide clear error messages and hints
+
+ALWAYS use:
+- BlocBuilder/BlocSelector for state subscription
+- Atomic Design component organization
+- Proper theme and styling systems
+- Accessibility widgets and semantics
+- Stateless widgets unless pure UI state needed
+
+NEVER use:
+- StatefulWidget for business logic
+- Direct Cubit instantiation (use context.read())
+- Business logic in widget build methods
+- Direct external service calls from widgets
+- Magic numbers or hardcoded strings
+- **Non-const constructors** when const is available (performance killer!)
+- **Methods that return widgets** - create dedicated widget classes in feature/widgets/ folder instead 

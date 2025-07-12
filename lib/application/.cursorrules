@@ -1,0 +1,70 @@
+# Application Layer Rules
+
+You are working in the **APPLICATION LAYER** - the orchestration and state management layer.
+
+## Application Layer Responsibilities
+- **Cubits** for state management (BLoC pattern)
+- Orchestrate business workflows and use cases
+- Coordinate between Domain and Infrastructure layers
+- Handle application-specific business logic
+- Manage application state and user interactions
+
+## What BELONGS in Application:
+- Cubits extending BaseCubit
+- Application-specific business workflows
+- State classes for UI state representation
+- Coordination between repositories and UI
+- Input validation and transformation
+- Error handling and user feedback logic
+
+## What NEVER belongs in Application:
+- UI widgets or presentation logic
+- Direct database or HTTP calls
+- Infrastructure implementations
+- Domain entities creation (use factories)
+- Platform-specific code
+- Business rules (belongs in Domain)
+
+## Cubit Rules:
+- ALWAYS extend BaseCubit (no exceptions)
+- Use dependency injection - inject repositories via constructor
+- **"new" is forbidden outside generated code - use GetIt for everything**
+- Emit state changes via BehaviorSubject streams
+- Handle errors gracefully with proper state transitions
+- Keep methods focused and single-purpose
+- No direct instantiation - use GetIt DI container
+
+## State Management:
+- Define clear state classes for each Cubit
+- Use immutable state objects
+- Include loading, success, and error states
+- Make states serializable when needed
+- Avoid nested state complexity
+
+## Repository Usage:
+- Inject repository interfaces, not implementations
+- Subscribe to repository streams for reactive updates
+- Transform domain entities to application DTOs when needed
+- Handle repository failures appropriately
+- Cache application-level computed data
+
+## Error Handling:
+- Catch and transform domain failures to UI-friendly messages
+- Emit appropriate error states
+- Log errors for debugging
+- Provide fallback mechanisms where appropriate
+- Never let unhandled exceptions reach the UI
+
+ALWAYS use:
+- Cubits + BLoC pattern for state management
+- Dependency injection for all dependencies
+- RxDart BehaviorSubject for reactive streams
+- Proper error handling and state transitions
+- Repository interfaces (not implementations)
+
+NEVER use:
+- StatefulWidget for business logic
+- Direct repository implementations
+- Direct instantiation of dependencies
+- setState() for complex state management
+- Synchronous operations (prefer streams) 

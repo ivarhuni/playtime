@@ -1,0 +1,85 @@
+# Infrastructure Layer Rules
+
+You are working in the **INFRASTRUCTURE LAYER** - the external world interface layer.
+
+## Infrastructure Layer Responsibilities
+- **Repository Implementations** that fulfill domain contracts
+- External service integrations (APIs, databases, platform)
+- Data caching with **Hive**
+- HTTP clients using **Chopper**
+- Platform channels and native integrations
+- Data transformation between external formats and domain entities
+
+## What BELONGS in Infrastructure:
+- Repository implementations (concrete classes)
+- HTTP client services using Chopper
+- Hive cache implementations
+- Platform-specific services
+- External API integrations
+- **Model Layer**: External API DTOs with json_serializable (separate from Domain entities)
+- Data mappers/converters (DTOs ↔ Entities)
+- Authentication providers
+- File system operations
+
+## What NEVER belongs in Infrastructure:
+- UI components or widgets
+- Business logic or domain rules
+- Cubits or state management
+- Direct UI state manipulation
+- Application workflow logic
+- Domain entity creation with business rules
+
+## Repository Implementation Rules:
+- **Annotate every concrete class with @injectable and bind to interface**
+- Implement domain repository interfaces
+- Use Hive for local caching
+- Expose BehaviorSubject streams for reactive data
+- Transform external DTOs to domain entities
+- Handle network failures gracefully
+- Cache data intelligently with proper invalidation
+
+## HTTP Client Rules:
+- ALWAYS use Chopper for HTTP operations
+- Define service interfaces with proper annotations
+- Handle authentication and headers consistently
+- Implement proper error handling and retries
+- Use DTOs for JSON serialization/deserialization
+- Never expose raw HTTP responses to upper layers
+
+## Caching Rules:
+- Use Hive for all local data persistence
+- **Streams emit cached value immediately, then update on fresh data**
+- Implement proper cache invalidation strategies
+- Cache at the repository level, not service level
+- Use BehaviorSubject to emit cached data immediately
+- Handle cache corruption and migration scenarios
+- Separate cache keys by user/context when needed
+
+## Data Transformation:
+- Create mapper classes for DTO ↔ Entity conversion
+- Validate external data before creating domain entities
+- Handle missing or malformed external data gracefully
+- Use factory methods for complex entity creation
+- Keep transformation logic separate from repository logic
+
+## Error Handling:
+- Transform external errors to domain failures
+- Implement proper retry mechanisms
+- Handle network connectivity issues
+- Provide meaningful error messages
+- Log technical details for debugging
+- Never expose technical errors to domain layer
+
+ALWAYS use:
+- Chopper for HTTP operations
+- Hive for local caching
+- BehaviorSubject streams for reactive data
+- Injectable + GetIt for dependency registration
+- Proper error handling and data transformation
+
+NEVER use:
+- Direct http package usage
+- SharedPreferences for complex data
+- Synchronous operations (prefer async/streams)
+- Business logic in infrastructure services
+- Direct entity creation without validation 
