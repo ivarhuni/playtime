@@ -27,7 +27,7 @@ class LocationDetailBody extends StatelessWidget {
             if (state.location == null) {
               return const Center(
                 child: Padding(
-                  padding: EdgeInsets.all(PlayPaddings.Playrge),
+                  padding: EdgeInsets.all(PlayPaddings.large),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -53,7 +53,7 @@ class LocationDetailBody extends StatelessWidget {
 
             // TODO: Implement detailed location view
             return Padding(
-              padding: const EdgeInsets.all(PlayPaddings.Playrge),
+              padding: const EdgeInsets.all(PlayPaddings.large),
               child: Center(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -86,7 +86,7 @@ class LocationDetailBody extends StatelessWidget {
                         style: const TextStyle(fontSize: 16),
                         textAlign: TextAlign.center,
                       ),
-                    const SizedBox(height: PlayPaddings.Playrge),
+                    const SizedBox(height: PlayPaddings.large),
                     const Text(
                       'Detailed view coming soon!',
                       style: TextStyle(
@@ -102,7 +102,7 @@ class LocationDetailBody extends StatelessWidget {
           case LocationDetailStatus.error:
             return Center(
               child: Padding(
-                padding: const EdgeInsets.all(PlayPaddings.Playrge),
+                padding: const EdgeInsets.all(PlayPaddings.large),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [

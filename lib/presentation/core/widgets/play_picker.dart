@@ -63,7 +63,7 @@ class PlayPicker {
       useSafeArea: true,
       builder: (BuildContext context) {
         return Padding(
-          padding: const EdgeInsets.only(top: PlayPaddings.Playrge, bottom: PlayPaddings.small),
+          padding: const EdgeInsets.only(top: PlayPaddings.large, bottom: PlayPaddings.small),
           child: Wrap(
             children: entries.entries
                 .map(
@@ -71,8 +71,8 @@ class PlayPicker {
                     leading: e.icon == null
                         ? PlaySvg(
                             e.svg ?? AppAssets.icons.icTransparent,
-                            width: PlaySizes.Playrge,
-                            height: PlaySizes.Playrge,
+                            width: PlaySizes.large,
+                            height: PlaySizes.large,
                           )
                         : Icon(e.icon),
                     title: PlayText(e.text, style: PlayTheme.font.body16),

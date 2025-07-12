@@ -91,7 +91,7 @@ class _LaDayMonthPickerState extends State<PlayDayMonthPicker> {
           height: PlaySizes.pickerHeight,
           decoration: const BoxDecoration(
             color: CupertinoColors.systemBackground,
-            borderRadius: BorderRadius.vertical(top: Radius.circular(PlayCornerRadius.Playrge)),
+            borderRadius: BorderRadius.vertical(top: Radius.circular(PlayCornerRadius.large)),
           ),
           child: PlayColumn(
             children: [

@@ -92,7 +92,7 @@ class PlayBulletPointList extends StatelessWidget {
     if (e.icon != null) {
       return PlayIcon(
         e.icon!,
-        size: PlaySizes.Playrge,
+        size: PlaySizes.large,
       );
     } else if (e.emoji != null) {
       return PlayText(e.emoji ?? "•", style: PlayTheme.font.body20);

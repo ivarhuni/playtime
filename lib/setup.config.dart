@@ -22,8 +22,6 @@ import 'package:ut_ad_leika/domain/locations/repositories/i_location_service.dar
     as _i840;
 import 'package:ut_ad_leika/infrastructure/core/auth/device_id_provider.dart'
     as _i84;
-import 'package:ut_ad_leika/infrastructure/core/cache/i_hive_cache.dart'
-    as _i275;
 import 'package:ut_ad_leika/infrastructure/core/event/event_bus_module.dart'
     as _i1057;
 import 'package:ut_ad_leika/infrastructure/core/initialization/initialization_service.dart'
@@ -54,7 +52,6 @@ extension GetItInjectableX on _i174.GetIt {
     gh.lazySingleton<_i84.DeviceIdProvider>(() => _i84.DeviceIdProvider());
     gh.lazySingleton<_i160.PlatformDetector>(() => _i160.PlatformDetector());
     gh.factory<_i760.IPollAndDebounce>(() => _i849.PollAndDebounce());
-    gh.lazySingleton<_i275.IHiveCache>(() => _i275.HiveCache());
     gh.lazySingleton<_i840.ILocationService>(() => _i130.LocationService());
     gh.factory<_i816.LocationDetailCubit>(
       () => _i816.LocationDetailCubit(gh<_i840.ILocationService>()),

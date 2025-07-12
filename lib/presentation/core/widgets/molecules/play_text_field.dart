@@ -80,7 +80,7 @@ class _LaTextField extends State<PlayTextField> {
               PlayPadding(
                 padding: const EdgeInsets.only(right: PlayPaddings.mediumSmall),
                 child: PlayCenter(
-                  child: PlayIcon(widget.actionIcon!, size: PlaySizes.Playrge, color: widget.hintColor),
+                  child: PlayIcon(widget.actionIcon!, size: PlaySizes.large, color: widget.hintColor),
                 ),
               ),
           ],
@@ -117,7 +117,7 @@ class _LaTextField extends State<PlayTextField> {
               PlayPadding(
                 padding: const EdgeInsets.only(right: PlayPaddings.mediumSmall),
                 child: PlayCenter(
-                  child: PlayIcon(widget.actionIcon!, size: PlaySizes.Playrge, color: widget.hintColor),
+                  child: PlayIcon(widget.actionIcon!, size: PlaySizes.large, color: widget.hintColor),
                 ),
               ),
           ],

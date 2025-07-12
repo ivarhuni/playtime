@@ -34,7 +34,7 @@ class PlayCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final BorderRadius borderRadius = BorderRadius.circular(PlayCornerRadius.Playrge);
+    final BorderRadius borderRadius = BorderRadius.circular(PlayCornerRadius.large);
     return Material(
       shape: RoundedRectangleBorder(
         borderRadius: borderRadius,

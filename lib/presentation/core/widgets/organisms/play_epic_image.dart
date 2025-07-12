@@ -62,7 +62,7 @@ class PlayEpicImage extends StatelessWidget {
     }
 
     if (type == PlayEpicImageType.avatar) {
-      const double backgroundPadding = PlayPaddings.Playrge;
+      const double backgroundPadding = PlayPaddings.large;
       final double size = _getSize(context);
       final double backgroundSize = size + backgroundPadding;
       core = Stack(

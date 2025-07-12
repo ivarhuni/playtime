@@ -43,7 +43,7 @@ class LocationListPage extends StatelessWidget {
         if (state.locations.isEmpty) {
           return const Center(
             child: Padding(
-              padding: EdgeInsets.all(PlayPaddings.Playrge),
+              padding: EdgeInsets.all(PlayPaddings.large),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -88,7 +88,7 @@ class LocationListPage extends StatelessWidget {
       case LocationListStatus.error:
         return Center(
           child: Padding(
-            padding: const EdgeInsets.all(PlayPaddings.Playrge),
+            padding: const EdgeInsets.all(PlayPaddings.large),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

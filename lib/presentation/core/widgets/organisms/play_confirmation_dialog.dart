@@ -103,7 +103,7 @@ class PlayConfirmationDialog {
           padding: const EdgeInsets.all(PlayPaddings.medium),
           decoration: BoxDecoration(
             color: PlayTheme.surface(),
-            borderRadius: const BorderRadius.vertical(top: Radius.circular(PlayCornerRadius.Playrge)),
+            borderRadius: const BorderRadius.vertical(top: Radius.circular(PlayCornerRadius.large)),
           ),
           child: PlayColumn(
             mainAxisSize: MainAxisSize.min,
@@ -120,11 +120,11 @@ class PlayConfirmationDialog {
                 style: PlayTheme.font.body16.onSurface,
                 textAlign: TextAlign.center,
               ),
-              const PlaySizedBox(height: PlayPaddings.Playrge),
+              const PlaySizedBox(height: PlayPaddings.large),
               PlayRow(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  const PlaySizedBox(width: PlayPaddings.Playrge),
+                  const PlaySizedBox(width: PlayPaddings.large),
                   PlayExpanded(
                     child: PlayButton(
                       onTap: () {
@@ -144,7 +144,7 @@ class PlayConfirmationDialog {
                       text: cancelText ?? S.of(context).global_cancel,
                     ),
                   ),
-                  const PlaySizedBox(width: PlayPaddings.Playrge),
+                  const PlaySizedBox(width: PlayPaddings.large),
                 ],
               ),
               const PlaySizedBox(height: PlayPaddings.medium),

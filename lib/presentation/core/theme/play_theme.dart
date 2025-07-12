@@ -9,7 +9,7 @@ class PlayPaddings {
   static const double small = 8;
   static const double mediumSmall = 12;
   static const double medium = 16;
-  static const double Playrge = 24;
+  static const double large = 24;
   static const double extraLarge = 32;
   static const double huge = 40;
   static const double extraHuge = 48;
@@ -21,7 +21,7 @@ class PlaySizes {
   static const double small = 8;
   static const double mediumSmall = 12;
   static const double medium = 16;
-  static const double Playrge = 24;
+  static const double large = 24;
   static const double extraLarge = 32;
   static const double huge = 40;
   static const double extraHuge = 48;
@@ -45,7 +45,7 @@ class PlayCornerRadius {
   static const double small = 8;
   static const double mediumSmall = 12;
   static const double medium = 16;
-  static const double Playrge = 24;
+  static const double large = 24;
   static const double extraLarge = 32;
   static const double huge = 40;
   static const double extraHuge = 48;
@@ -55,15 +55,15 @@ extension PlayCornerRadiusExtension on PlayCornerRadius {
   RoundedRectangleBorder get drawer {
     return const RoundedRectangleBorder(
       borderRadius: BorderRadius.only(
-        topLeft: Radius.circular(PlayCornerRadius.Playrge),
-        topRight: Radius.circular(PlayCornerRadius.Playrge),
+        topLeft: Radius.circular(PlayCornerRadius.large),
+        topRight: Radius.circular(PlayCornerRadius.large),
       ),
     );
   }
 
   RoundedRectangleBorder get dialog {
     return const RoundedRectangleBorder(
-      borderRadius: BorderRadius.all(Radius.circular(PlayCornerRadius.Playrge)),
+      borderRadius: BorderRadius.all(Radius.circular(PlayCornerRadius.large)),
     );
   }
 }

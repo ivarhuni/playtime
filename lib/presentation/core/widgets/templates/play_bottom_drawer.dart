@@ -61,7 +61,7 @@ class PlayBottomDrawer extends StatelessWidget {
             PlayPadding.only(
               left: PlayPaddings.medium,
               right: PlayPaddings.medium,
-              top: PlayPaddings.Playrge,
+              top: PlayPaddings.large,
               bottom: PlayPaddings.small,
               child: PlayText(
                 config.heading,
@@ -105,7 +105,7 @@ class PlayBottomDrawer extends StatelessWidget {
             if (entry.icon != null) ...[
               PlayIcon(
                 entry.icon!,
-                size: PlaySizes.Playrge,
+                size: PlaySizes.large,
                 color: entry.enabled ? PlayTheme.onSurface() : PlayTheme.onSurface().withValues(alpha: 155),
               ),
               const PlaySizedBox(width: PlayPaddings.medium),

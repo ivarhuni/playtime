@@ -67,7 +67,7 @@ class PlayIconCircle extends StatelessWidget {
 
     if (loading) {
       return PlayLoadingBox(
-        customBorderRadius: const BorderRadius.all(Radius.circular(PlayCornerRadius.Playrge)),
+        customBorderRadius: const BorderRadius.all(Radius.circular(PlayCornerRadius.large)),
         child: widget,
       );
     } else {

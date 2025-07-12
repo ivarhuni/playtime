@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import
+
 import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
@@ -18,7 +20,7 @@ import 'package:ut_ad_leika/setup.dart';
 
 enum PageName {
   splash("/splash"),
-  locations("/"),
+  locations("/locations"),
   locationDetail("/location-detail"),
   wizard("/wizard"),
   main("/main");

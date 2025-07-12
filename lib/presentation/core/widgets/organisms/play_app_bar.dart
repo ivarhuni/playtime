@@ -17,7 +17,7 @@ class AppBarActionDefinition {
         value: PlatformDetector.isIOS ? 0 : PlayPaddings.medium,
         child: PlayIcon(
           icon,
-          size: PlaySizes.Playrge,
+          size: PlaySizes.large,
           color: PlayTheme.onPrimary(),
         ),
       ),

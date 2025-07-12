@@ -23,7 +23,7 @@ class LocationCard extends StatelessWidget {
           LocationDetailPage(locationId: location.id),
         );
       },
-      borderRadius: BorderRadius.circular(PlayCornerRadius.Playrge),
+      borderRadius: BorderRadius.circular(PlayCornerRadius.large),
       child: PlayCard(
         child: Padding(
           padding: const EdgeInsets.all(PlayPaddings.small),

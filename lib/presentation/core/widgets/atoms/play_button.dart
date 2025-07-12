@@ -104,7 +104,7 @@ class PlayButton extends StatelessWidget {
       child = Center(
         child: PlayDotLoader(
           color: colors.busyColor,
-          size: PlaySizes.Playrge,
+          size: PlaySizes.large,
         ),
       );
     } else {
@@ -258,12 +258,12 @@ extension _IsbButtonSizeX on PlayButtonSize {
       };
 
   double get borderRadius => switch (this) {
-        PlayButtonSize.normal => PlayCornerRadius.Playrge,
+        PlayButtonSize.normal => PlayCornerRadius.large,
         PlayButtonSize.mini => PlayCornerRadius.extraSmall,
       };
 
   double get iconSize => switch (this) {
-        PlayButtonSize.normal => PlaySizes.Playrge,
+        PlayButtonSize.normal => PlaySizes.large,
         PlayButtonSize.mini => PlaySizes.medium,
       };
 
