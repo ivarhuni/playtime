@@ -1,4 +1,4 @@
-package ut.ad.leika.ut_ad_leika
+package ut.ad.leika
 
 import io.flutter.embedding.android.FlutterActivity
 
