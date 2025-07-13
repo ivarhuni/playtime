@@ -1,0 +1,7495 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-07-13T00:01:53Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/33760371",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Stuðlaberg 66, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "66",
+              "short_name": "66",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Stuðlaberg",
+              "short_name": "Stuðlaberg",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9312524,
+              64.0727697
+            ],
+            [
+              -21.9312274,
+              64.0726057
+            ],
+            [
+              -21.9308606,
+              64.0726164
+            ],
+            [
+              -21.9308856,
+              64.0727804
+            ],
+            [
+              -21.9312524,
+              64.0727697
+            ]
+          ]
+        ]
+      },
+      "id": "way/33760371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/33760372",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Stuðlaberg 38, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "38",
+              "short_name": "38",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Stuðlaberg",
+              "short_name": "Stuðlaberg",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9312798,
+              64.0720839
+            ],
+            [
+              -21.9312678,
+              64.0720261
+            ],
+            [
+              -21.93137,
+              64.0720234
+            ],
+            [
+              -21.931358,
+              64.0719709
+            ],
+            [
+              -21.9309793,
+              64.0719604
+            ],
+            [
+              -21.9310154,
+              64.0720944
+            ],
+            [
+              -21.9312798,
+              64.0720839
+            ]
+          ]
+        ]
+      },
+      "id": "way/33760372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125198156",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "22XF+MHQ, Burknavellir, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "22XF+MHQ",
+              "short_name": "22XF+MHQ",
+              "types": [
+                "plus_code"
+              ]
+            },
+            {
+              "long_name": "Burknavellir",
+              "short_name": "Burknavellir",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Vellir",
+              "short_name": "Vellir",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9766524,
+              64.0492672
+            ],
+            [
+              -21.9766251,
+              64.0492726
+            ],
+            [
+              -21.9766291,
+              64.0492589
+            ],
+            [
+              -21.9766573,
+              64.0492342
+            ],
+            [
+              -21.9767425,
+              64.0492107
+            ],
+            [
+              -21.9767995,
+              64.0492025
+            ],
+            [
+              -21.9768236,
+              64.0492025
+            ],
+            [
+              -21.9768558,
+              64.0491878
+            ],
+            [
+              -21.9768893,
+              64.0491652
+            ],
+            [
+              -21.976894,
+              64.0491421
+            ],
+            [
+              -21.9768853,
+              64.0491283
+            ],
+            [
+              -21.976884,
+              64.0491268
+            ],
+            [
+              -21.9768511,
+              64.0491115
+            ],
+            [
+              -21.9768317,
+              64.0490963
+            ],
+            [
+              -21.9767867,
+              64.0490884
+            ],
+            [
+              -21.9767478,
+              64.0491036
+            ],
+            [
+              -21.9767358,
+              64.0491294
+            ],
+            [
+              -21.976719,
+              64.0491494
+            ],
+            [
+              -21.9766868,
+              64.0491652
+            ],
+            [
+              -21.9766533,
+              64.0491958
+            ],
+            [
+              -21.9766271,
+              64.0492101
+            ],
+            [
+              -21.9766003,
+              64.0492178
+            ],
+            [
+              -21.9765547,
+              64.0492257
+            ],
+            [
+              -21.9765212,
+              64.0492254
+            ],
+            [
+              -21.9764823,
+              64.0492407
+            ],
+            [
+              -21.9764776,
+              64.0492489
+            ],
+            [
+              -21.9765178,
+              64.0492794
+            ],
+            [
+              -21.9765721,
+              64.0492861
+            ],
+            [
+              -21.9766572,
+              64.0492857
+            ],
+            [
+              -21.9766524,
+              64.0492672
+            ]
+          ]
+        ]
+      },
+      "id": "way/125198156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/125237740",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Erluás 31, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "31",
+              "short_name": "31",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Erluás",
+              "short_name": "Erluás",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.949426,
+              64.0541832
+            ],
+            [
+              -21.9494381,
+              64.0542058
+            ],
+            [
+              -21.9494501,
+              64.0542167
+            ],
+            [
+              -21.9494615,
+              64.0542228
+            ],
+            [
+              -21.949475,
+              64.0542296
+            ],
+            [
+              -21.9495105,
+              64.0542439
+            ],
+            [
+              -21.9495581,
+              64.0542589
+            ],
+            [
+              -21.9496131,
+              64.0542665
+            ],
+            [
+              -21.9496419,
+              64.0542736
+            ],
+            [
+              -21.9496848,
+              64.0542791
+            ],
+            [
+              -21.9497231,
+              64.0542885
+            ],
+            [
+              -21.9497854,
+              64.0542982
+            ],
+            [
+              -21.9498478,
+              64.054305
+            ],
+            [
+              -21.9498907,
+              64.054305
+            ],
+            [
+              -21.9499081,
+              64.0543044
+            ],
+            [
+              -21.9499256,
+              64.0542997
+            ],
+            [
+              -21.9499376,
+              64.0542953
+            ],
+            [
+              -21.9499423,
+              64.0542891
+            ],
+            [
+              -21.9499484,
+              64.05428
+            ],
+            [
+              -21.9499463,
+              64.0542706
+            ],
+            [
+              -21.9499168,
+              64.054246
+            ],
+            [
+              -21.9498793,
+              64.0542319
+            ],
+            [
+              -21.9498471,
+              64.054226
+            ],
+            [
+              -21.9498176,
+              64.054226
+            ],
+            [
+              -21.9497935,
+              64.0542225
+            ],
+            [
+              -21.9497693,
+              64.0542143
+            ],
+            [
+              -21.9497479,
+              64.0542049
+            ],
+            [
+              -21.9496969,
+              64.0541979
+            ],
+            [
+              -21.9496486,
+              64.0541861
+            ],
+            [
+              -21.9496245,
+              64.0541803
+            ],
+            [
+              -21.9496164,
+              64.0541615
+            ],
+            [
+              -21.9495977,
+              64.0541451
+            ],
+            [
+              -21.9495708,
+              64.054138
+            ],
+            [
+              -21.9495413,
+              64.0541357
+            ],
+            [
+              -21.9495226,
+              64.0541416
+            ],
+            [
+              -21.9494984,
+              64.0541474
+            ],
+            [
+              -21.9494689,
+              64.0541521
+            ],
+            [
+              -21.9494448,
+              64.0541603
+            ],
+            [
+              -21.9494314,
+              64.0541721
+            ],
+            [
+              -21.949426,
+              64.0541832
+            ]
+          ]
+        ]
+      },
+      "id": "way/125237740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/128681558",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Lindarberg 88, 221 Reykjavík, Ísland",
+          "google_components": [
+            {
+              "long_name": "88",
+              "short_name": "88",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Lindarberg",
+              "short_name": "Lindarberg",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Setberg",
+              "short_name": "Setberg",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Reykjavík",
+              "short_name": "RVK",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9240967,
+              64.0630725
+            ],
+            [
+              -21.9241185,
+              64.0630687
+            ],
+            [
+              -21.9241702,
+              64.0630522
+            ],
+            [
+              -21.9242281,
+              64.0630244
+            ],
+            [
+              -21.9243161,
+              64.0629822
+            ],
+            [
+              -21.924147,
+              64.0628569
+            ],
+            [
+              -21.9240038,
+              64.0628936
+            ],
+            [
+              -21.9239122,
+              64.0629009
+            ],
+            [
+              -21.9238877,
+              64.0629117
+            ],
+            [
+              -21.9238915,
+              64.0629286
+            ],
+            [
+              -21.9240257,
+              64.0630291
+            ],
+            [
+              -21.9240593,
+              64.0630533
+            ],
+            [
+              -21.9240967,
+              64.0630725
+            ]
+          ]
+        ]
+      },
+      "id": "way/128681558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/128681559",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Einihlið 17, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "17",
+              "short_name": "17",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Einihlið",
+              "short_name": "Einihlið",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9357007,
+              64.0613659
+            ],
+            [
+              -21.9357355,
+              64.0614421
+            ],
+            [
+              -21.9357768,
+              64.0614449
+            ],
+            [
+              -21.9358439,
+              64.0614471
+            ],
+            [
+              -21.9359226,
+              64.0614454
+            ],
+            [
+              -21.9359807,
+              64.0614421
+            ],
+            [
+              -21.9360994,
+              64.0614251
+            ],
+            [
+              -21.9361804,
+              64.0614031
+            ],
+            [
+              -21.9361818,
+              64.061393
+            ],
+            [
+              -21.9361624,
+              64.0613802
+            ],
+            [
+              -21.9361355,
+              64.0613659
+            ],
+            [
+              -21.9361278,
+              64.0613416
+            ],
+            [
+              -21.9361187,
+              64.0613275
+            ],
+            [
+              -21.9359823,
+              64.06134
+            ],
+            [
+              -21.9357007,
+              64.0613659
+            ]
+          ]
+        ]
+      },
+      "id": "way/128681559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/128681560",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Lækjarberg 6, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "6",
+              "short_name": "6",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Lækjarberg",
+              "short_name": "Lækjarberg",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Setberg",
+              "short_name": "Setberg",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9276606,
+              64.0625919
+            ],
+            [
+              -21.9276364,
+              64.0625658
+            ],
+            [
+              -21.9276219,
+              64.0625453
+            ],
+            [
+              -21.9276187,
+              64.062527
+            ],
+            [
+              -21.9276074,
+              64.0625044
+            ],
+            [
+              -21.927609,
+              64.0624868
+            ],
+            [
+              -21.9276203,
+              64.0624783
+            ],
+            [
+              -21.9276348,
+              64.0624706
+            ],
+            [
+              -21.9276397,
+              64.0624501
+            ],
+            [
+              -21.9276235,
+              64.0624268
+            ],
+            [
+              -21.9275929,
+              64.0624219
+            ],
+            [
+              -21.9275268,
+              64.0624169
+            ],
+            [
+              -21.9274461,
+              64.0624184
+            ],
+            [
+              -21.9273881,
+              64.0624261
+            ],
+            [
+              -21.9273526,
+              64.0624459
+            ],
+            [
+              -21.9273445,
+              64.0624586
+            ],
+            [
+              -21.9273348,
+              64.0625651
+            ],
+            [
+              -21.9274106,
+              64.06263
+            ],
+            [
+              -21.9276606,
+              64.0625919
+            ]
+          ]
+        ]
+      },
+      "id": "way/128681560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/128681561",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Steinahlíð 7, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "7",
+              "short_name": "7",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Steinahlíð",
+              "short_name": "Steinahlíð",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9292539,
+              64.058283
+            ],
+            [
+              -21.9292926,
+              64.0583016
+            ],
+            [
+              -21.9293236,
+              64.058318
+            ],
+            [
+              -21.929361,
+              64.0583214
+            ],
+            [
+              -21.92945,
+              64.0583259
+            ],
+            [
+              -21.9294707,
+              64.0583248
+            ],
+            [
+              -21.9295288,
+              64.0583022
+            ],
+            [
+              -21.9295946,
+              64.0582717
+            ],
+            [
+              -21.9296281,
+              64.0582446
+            ],
+            [
+              -21.9296629,
+              64.0582096
+            ],
+            [
+              -21.9296849,
+              64.0581769
+            ],
+            [
+              -21.9297042,
+              64.0581498
+            ],
+            [
+              -21.9297104,
+              64.058131
+            ],
+            [
+              -21.9297055,
+              64.0581131
+            ],
+            [
+              -21.9296888,
+              64.0581063
+            ],
+            [
+              -21.9296797,
+              64.0581035
+            ],
+            [
+              -21.9296526,
+              64.0581041
+            ],
+            [
+              -21.9296075,
+              64.0581069
+            ],
+            [
+              -21.9295559,
+              64.0581142
+            ],
+            [
+              -21.9295133,
+              64.0581227
+            ],
+            [
+              -21.9294681,
+              64.0581334
+            ],
+            [
+              -21.9294126,
+              64.0581487
+            ],
+            [
+              -21.9293739,
+              64.058169
+            ],
+            [
+              -21.9293455,
+              64.0581899
+            ],
+            [
+              -21.9293159,
+              64.0582068
+            ],
+            [
+              -21.9292823,
+              64.0582277
+            ],
+            [
+              -21.9292552,
+              64.0582446
+            ],
+            [
+              -21.9292539,
+              64.058283
+            ]
+          ]
+        ]
+      },
+      "id": "way/128681561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/128681562",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Fjóluhlíð 17, 221 Reykjavík, Ísland",
+          "google_components": [
+            {
+              "long_name": "17",
+              "short_name": "17",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Fjóluhlíð",
+              "short_name": "Fjóluhlíð",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Reykjavík",
+              "short_name": "RVK",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9333942,
+              64.0596705
+            ],
+            [
+              -21.9334368,
+              64.0596739
+            ],
+            [
+              -21.9334742,
+              64.0596773
+            ],
+            [
+              -21.9335162,
+              64.0596816
+            ],
+            [
+              -21.9335469,
+              64.0596468
+            ],
+            [
+              -21.9336459,
+              64.0596575
+            ],
+            [
+              -21.9336774,
+              64.0596209
+            ],
+            [
+              -21.9338265,
+              64.0596242
+            ],
+            [
+              -21.9338265,
+              64.0596118
+            ],
+            [
+              -21.9338291,
+              64.0595915
+            ],
+            [
+              -21.9338381,
+              64.0595684
+            ],
+            [
+              -21.9338665,
+              64.0595452
+            ],
+            [
+              -21.933882,
+              64.0595317
+            ],
+            [
+              -21.933882,
+              64.0595119
+            ],
+            [
+              -21.9338807,
+              64.0595006
+            ],
+            [
+              -21.9338368,
+              64.0594781
+            ],
+            [
+              -21.9338149,
+              64.0594656
+            ],
+            [
+              -21.9337633,
+              64.0594594
+            ],
+            [
+              -21.9336988,
+              64.0594589
+            ],
+            [
+              -21.9336239,
+              64.05946
+            ],
+            [
+              -21.9335413,
+              64.0594594
+            ],
+            [
+              -21.9334949,
+              64.0594622
+            ],
+            [
+              -21.9334497,
+              64.0594639
+            ],
+            [
+              -21.9334162,
+              64.0594775
+            ],
+            [
+              -21.9333865,
+              64.0594967
+            ],
+            [
+              -21.9333697,
+              64.0595114
+            ],
+            [
+              -21.9333659,
+              64.0595362
+            ],
+            [
+              -21.9333697,
+              64.0595576
+            ],
+            [
+              -21.9333646,
+              64.0595955
+            ],
+            [
+              -21.9333555,
+              64.0596101
+            ],
+            [
+              -21.9333413,
+              64.0596254
+            ],
+            [
+              -21.9333349,
+              64.0596406
+            ],
+            [
+              -21.9333349,
+              64.0596513
+            ],
+            [
+              -21.9333517,
+              64.0596587
+            ],
+            [
+              -21.9333749,
+              64.0596671
+            ],
+            [
+              -21.9333942,
+              64.0596705
+            ]
+          ]
+        ]
+      },
+      "id": "way/128681562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/128943368",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Álfaskeið 12, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "12",
+              "short_name": "12",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Álfaskeið",
+              "short_name": "Álfaskeið",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9538926,
+              64.0709652
+            ],
+            [
+              -21.9540271,
+              64.0709922
+            ],
+            [
+              -21.9541685,
+              64.071014
+            ],
+            [
+              -21.9542195,
+              64.0709602
+            ],
+            [
+              -21.9539359,
+              64.07091
+            ],
+            [
+              -21.9538926,
+              64.0709652
+            ]
+          ]
+        ]
+      },
+      "id": "way/128943368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/134076331",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Fjóluvellir 16, 221 Reykjavík, Ísland",
+          "google_components": [
+            {
+              "long_name": "16",
+              "short_name": "16",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Fjóluvellir",
+              "short_name": "Fjóluvellir",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Vellir",
+              "short_name": "Vellir",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Reykjavík",
+              "short_name": "RVK",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9708816,
+              64.0442032
+            ],
+            [
+              -21.9707025,
+              64.0442587
+            ],
+            [
+              -21.9707555,
+              64.0442915
+            ],
+            [
+              -21.9709346,
+              64.044236
+            ],
+            [
+              -21.9708816,
+              64.0442032
+            ]
+          ]
+        ]
+      },
+      "id": "way/134076331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/162872117",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Skipalón 27, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "27",
+              "short_name": "27",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Skipalón",
+              "short_name": "Skipalón",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9690343,
+              64.0601745
+            ],
+            [
+              -21.9690013,
+              64.0601965
+            ],
+            [
+              -21.9689548,
+              64.0602181
+            ],
+            [
+              -21.9689242,
+              64.0602393
+            ],
+            [
+              -21.9688896,
+              64.0602609
+            ],
+            [
+              -21.9688594,
+              64.0602801
+            ],
+            [
+              -21.9688385,
+              64.0603231
+            ],
+            [
+              -21.9688098,
+              64.0603577
+            ],
+            [
+              -21.9687674,
+              64.0604643
+            ],
+            [
+              -21.968721,
+              64.0605834
+            ],
+            [
+              -21.9686553,
+              64.0607045
+            ],
+            [
+              -21.9686226,
+              64.0607849
+            ],
+            [
+              -21.9686277,
+              64.0608018
+            ],
+            [
+              -21.9687531,
+              64.0608086
+            ],
+            [
+              -21.9688701,
+              64.0608101
+            ],
+            [
+              -21.9690209,
+              64.0608031
+            ],
+            [
+              -21.9691871,
+              64.0607839
+            ],
+            [
+              -21.9693369,
+              64.0607638
+            ],
+            [
+              -21.9695137,
+              64.060736
+            ],
+            [
+              -21.9696873,
+              64.0607015
+            ],
+            [
+              -21.9698343,
+              64.0606712
+            ],
+            [
+              -21.9697402,
+              64.0606101
+            ],
+            [
+              -21.9696503,
+              64.0605408
+            ],
+            [
+              -21.9695288,
+              64.0604505
+            ],
+            [
+              -21.9694129,
+              64.0603599
+            ],
+            [
+              -21.9693254,
+              64.0602913
+            ],
+            [
+              -21.9692349,
+              64.0602259
+            ],
+            [
+              -21.9691775,
+              64.0601992
+            ],
+            [
+              -21.9691068,
+              64.0601717
+            ],
+            [
+              -21.9690343,
+              64.0601745
+            ]
+          ]
+        ]
+      },
+      "id": "way/162872117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/170496500",
+        "leisure": "playground",
+        "name": "Gæsluvöllur Grænukinn",
+        "address": {
+          "google_formatted": "Grænakinn 13, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "13",
+              "short_name": "13",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Grænakinn",
+              "short_name": "Grænakinn",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9422423,
+              64.0655631
+            ],
+            [
+              -21.9425269,
+              64.0654526
+            ],
+            [
+              -21.9420422,
+              64.065214
+            ],
+            [
+              -21.9417577,
+              64.0653245
+            ],
+            [
+              -21.9422423,
+              64.0655631
+            ]
+          ]
+        ]
+      },
+      "id": "way/170496500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/186829697",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Túnhvammur 13, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "13",
+              "short_name": "13",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Túnhvammur",
+              "short_name": "Túnhvammur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9522234,
+              64.0610444
+            ],
+            [
+              -21.9522073,
+              64.0610069
+            ],
+            [
+              -21.9520517,
+              64.061035
+            ],
+            [
+              -21.9518317,
+              64.0610632
+            ],
+            [
+              -21.9518586,
+              64.0610984
+            ],
+            [
+              -21.9519761,
+              64.0611357
+            ],
+            [
+              -21.9522234,
+              64.0610444
+            ]
+          ]
+        ]
+      },
+      "id": "way/186829697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/193529007",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "32GR+43X Víðistaðaskóli, Garðavegur, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "Víðistaðaskóli",
+              "short_name": "Víðistaðaskóli",
+              "types": [
+                "premise"
+              ]
+            },
+            {
+              "long_name": "32GR+43X",
+              "short_name": "32GR+43X",
+              "types": [
+                "plus_code"
+              ]
+            },
+            {
+              "long_name": "Garðavegur",
+              "short_name": "Garðavegur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9591708,
+              64.0747397
+            ],
+            [
+              -21.9591855,
+              64.0747216
+            ],
+            [
+              -21.9591865,
+              64.0746989
+            ],
+            [
+              -21.9591697,
+              64.0746773
+            ],
+            [
+              -21.9591515,
+              64.0746659
+            ],
+            [
+              -21.959111,
+              64.0746516
+            ],
+            [
+              -21.9590455,
+              64.0746435
+            ],
+            [
+              -21.9589939,
+              64.0746464
+            ],
+            [
+              -21.9589576,
+              64.0746538
+            ],
+            [
+              -21.9589193,
+              64.0746692
+            ],
+            [
+              -21.9588946,
+              64.0746906
+            ],
+            [
+              -21.9588889,
+              64.0747132
+            ],
+            [
+              -21.958893,
+              64.0747247
+            ],
+            [
+              -21.9589141,
+              64.0747455
+            ],
+            [
+              -21.9589533,
+              64.0747629
+            ],
+            [
+              -21.9590007,
+              64.0747724
+            ],
+            [
+              -21.9590525,
+              64.0747742
+            ],
+            [
+              -21.9590946,
+              64.0747697
+            ],
+            [
+              -21.9591388,
+              64.0747576
+            ],
+            [
+              -21.9591708,
+              64.0747397
+            ]
+          ]
+        ]
+      },
+      "id": "way/193529007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/222705161",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "3388+96V, Hliðarberg, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "3388+96V",
+              "short_name": "3388+96V",
+              "types": [
+                "plus_code"
+              ]
+            },
+            {
+              "long_name": "Hliðarberg",
+              "short_name": "Hliðarberg",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9334568,
+              64.0659392
+            ],
+            [
+              -21.9339607,
+              64.0657794
+            ],
+            [
+              -21.9335223,
+              64.0656247
+            ],
+            [
+              -21.9334593,
+              64.0656442
+            ],
+            [
+              -21.9333765,
+              64.0655931
+            ],
+            [
+              -21.9329434,
+              64.0657273
+            ],
+            [
+              -21.9331241,
+              64.0658389
+            ],
+            [
+              -21.9332339,
+              64.0658049
+            ],
+            [
+              -21.9334568,
+              64.0659392
+            ]
+          ]
+        ]
+      },
+      "id": "way/222705161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/287748861",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "32JP+45Q, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "32JP+45Q",
+              "short_name": "32JP+45Q",
+              "types": [
+                "plus_code"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9643376,
+              64.0803746
+            ],
+            [
+              -21.9645629,
+              64.0803746
+            ],
+            [
+              -21.9648204,
+              64.0803066
+            ],
+            [
+              -21.9648472,
+              64.0802785
+            ],
+            [
+              -21.9648472,
+              64.0802198
+            ],
+            [
+              -21.9647721,
+              64.0801565
+            ],
+            [
+              -21.9645199,
+              64.0800862
+            ],
+            [
+              -21.964359,
+              64.0802269
+            ],
+            [
+              -21.9643376,
+              64.0803746
+            ]
+          ]
+        ]
+      },
+      "id": "way/287748861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/287750918",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Sævangur 45, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "45",
+              "short_name": "45",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Sævangur",
+              "short_name": "Sævangur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Vesturbær",
+              "short_name": "Vesturbær",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.971755,
+              64.0774831
+            ],
+            [
+              -21.9719805,
+              64.0774592
+            ],
+            [
+              -21.9719471,
+              64.0773991
+            ],
+            [
+              -21.9717217,
+              64.077423
+            ],
+            [
+              -21.971755,
+              64.0774831
+            ]
+          ]
+        ]
+      },
+      "id": "way/287750918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/287836598",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Suðurvangur 16, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "16",
+              "short_name": "16",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Suðurvangur",
+              "short_name": "Suðurvangur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9547504,
+              64.0774504
+            ],
+            [
+              -21.9549127,
+              64.0774695
+            ],
+            [
+              -21.9550085,
+              64.0773132
+            ],
+            [
+              -21.9548463,
+              64.0772942
+            ],
+            [
+              -21.9547504,
+              64.0774504
+            ]
+          ]
+        ]
+      },
+      "id": "way/287836598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/287836602",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Hjallabraut 9, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "9",
+              "short_name": "9",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Hjallabraut",
+              "short_name": "Hjallabraut",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9545063,
+              64.0779469
+            ],
+            [
+              -21.9546029,
+              64.0777898
+            ],
+            [
+              -21.9541898,
+              64.0779047
+            ],
+            [
+              -21.9544316,
+              64.077937
+            ],
+            [
+              -21.9545063,
+              64.0779469
+            ]
+          ]
+        ]
+      },
+      "id": "way/287836602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/287836608",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Miðvangur 37, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "37",
+              "short_name": "37",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Miðvangur",
+              "short_name": "Miðvangur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9571268,
+              64.0778004
+            ],
+            [
+              -21.9576284,
+              64.0778637
+            ],
+            [
+              -21.9579234,
+              64.0778226
+            ],
+            [
+              -21.9578322,
+              64.0777195
+            ],
+            [
+              -21.9575694,
+              64.0777617
+            ],
+            [
+              -21.9571831,
+              64.0777101
+            ],
+            [
+              -21.9571268,
+              64.0778004
+            ]
+          ]
+        ]
+      },
+      "id": "way/287836608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/287836610",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Hjallabraut 25, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "25",
+              "short_name": "25",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Hjallabraut",
+              "short_name": "Hjallabraut",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9561971,
+              64.078485
+            ],
+            [
+              -21.9559053,
+              64.0784502
+            ],
+            [
+              -21.9558561,
+              64.078529
+            ],
+            [
+              -21.956148,
+              64.0785638
+            ],
+            [
+              -21.9561971,
+              64.078485
+            ]
+          ]
+        ]
+      },
+      "id": "way/287836610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/287836626",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Suðurvangur 15, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "15",
+              "short_name": "15",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Suðurvangur",
+              "short_name": "Suðurvangur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9527118,
+              64.0773051
+            ],
+            [
+              -21.9528726,
+              64.0773251
+            ],
+            [
+              -21.9529528,
+              64.0772019
+            ],
+            [
+              -21.952792,
+              64.0771819
+            ],
+            [
+              -21.9527118,
+              64.0773051
+            ]
+          ]
+        ]
+      },
+      "id": "way/287836626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/287836633",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Hjallabraut 3, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "3",
+              "short_name": "3",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Hjallabraut",
+              "short_name": "Hjallabraut",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9538078,
+              64.0783788
+            ],
+            [
+              -21.9541526,
+              64.0784218
+            ],
+            [
+              -21.9541909,
+              64.078363
+            ],
+            [
+              -21.9538461,
+              64.0783201
+            ],
+            [
+              -21.9538078,
+              64.0783788
+            ]
+          ]
+        ]
+      },
+      "id": "way/287836633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290460166",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Akurholt 1, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "1",
+              "short_name": "1",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Akurholt",
+              "short_name": "Akurholt",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9803217,
+              64.054227
+            ],
+            [
+              -21.9806868,
+              64.0542314
+            ],
+            [
+              -21.9806983,
+              64.0540485
+            ],
+            [
+              -21.9803332,
+              64.0540441
+            ],
+            [
+              -21.9803217,
+              64.054227
+            ]
+          ]
+        ]
+      },
+      "id": "way/290460166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290720488",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Reyniberg 3, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "3",
+              "short_name": "3",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Reyniberg",
+              "short_name": "Reyniberg",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.933985,
+              64.0736173
+            ],
+            [
+              -21.9339699,
+              64.0735459
+            ],
+            [
+              -21.933814,
+              64.0735522
+            ],
+            [
+              -21.9338291,
+              64.0736236
+            ],
+            [
+              -21.933985,
+              64.0736173
+            ]
+          ]
+        ]
+      },
+      "id": "way/290720488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/291975359",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Fagrihvammur 2a, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "2a",
+              "short_name": "2a",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Fagrihvammur",
+              "short_name": "Fagrihvammur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9630732,
+              64.0568415
+            ],
+            [
+              -21.9633299,
+              64.0567791
+            ],
+            [
+              -21.9632584,
+              64.0567229
+            ],
+            [
+              -21.9630017,
+              64.0567853
+            ],
+            [
+              -21.9630732,
+              64.0568415
+            ]
+          ]
+        ]
+      },
+      "id": "way/291975359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/292002050",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Lyngbarð 5, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "5",
+              "short_name": "5",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Lyngbarð",
+              "short_name": "Lyngbarð",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9735215,
+              64.0564819
+            ],
+            [
+              -21.9735307,
+              64.0564531
+            ],
+            [
+              -21.9734652,
+              64.0564205
+            ],
+            [
+              -21.9734227,
+              64.0564108
+            ],
+            [
+              -21.9733751,
+              64.0564085
+            ],
+            [
+              -21.9733394,
+              64.0564119
+            ],
+            [
+              -21.9733072,
+              64.0564196
+            ],
+            [
+              -21.9732812,
+              64.0564308
+            ],
+            [
+              -21.9732348,
+              64.0564375
+            ],
+            [
+              -21.9731927,
+              64.0564484
+            ],
+            [
+              -21.9731581,
+              64.0564624
+            ],
+            [
+              -21.9731308,
+              64.0564792
+            ],
+            [
+              -21.973297,
+              64.0565136
+            ],
+            [
+              -21.973354,
+              64.0564968
+            ],
+            [
+              -21.973418,
+              64.056486
+            ],
+            [
+              -21.9734693,
+              64.056482
+            ],
+            [
+              -21.9735215,
+              64.0564819
+            ]
+          ]
+        ]
+      },
+      "id": "way/292002050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/292090172",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Öldutún 9, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "9",
+              "short_name": "9",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Öldutún",
+              "short_name": "Öldutún",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9460596,
+              64.0627994
+            ],
+            [
+              -21.9458107,
+              64.0626534
+            ],
+            [
+              -21.9456337,
+              64.0627144
+            ],
+            [
+              -21.9459448,
+              64.0628998
+            ],
+            [
+              -21.9460596,
+              64.0627994
+            ]
+          ]
+        ]
+      },
+      "id": "way/292090172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/294343732",
+        "leisure": "playground",
+        "name": "Ljónagryfjan",
+        "address": {
+          "google_formatted": "Eyrarholt 7, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "7",
+              "short_name": "7",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Eyrarholt",
+              "short_name": "Eyrarholt",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9844905,
+              64.0587894
+            ],
+            [
+              -21.9847158,
+              64.0588035
+            ],
+            [
+              -21.9848339,
+              64.058672
+            ],
+            [
+              -21.9844905,
+              64.0584843
+            ],
+            [
+              -21.9841901,
+              64.0584374
+            ],
+            [
+              -21.9840201,
+              64.0584639
+            ],
+            [
+              -21.9840721,
+              64.0585265
+            ],
+            [
+              -21.984115,
+              64.0586063
+            ],
+            [
+              -21.9842008,
+              64.058672
+            ],
+            [
+              -21.9844905,
+              64.0587894
+            ]
+          ]
+        ]
+      },
+      "id": "way/294343732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/294479735",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Teigabyggð 12, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "12",
+              "short_name": "12",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Teigabyggð",
+              "short_name": "Teigabyggð",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.990176,
+              64.056438
+            ],
+            [
+              -21.990176,
+              64.0563113
+            ],
+            [
+              -21.9896395,
+              64.0563207
+            ],
+            [
+              -21.990176,
+              64.056438
+            ]
+          ]
+        ]
+      },
+      "id": "way/294479735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/294654377",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Lindarberg 28, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "28",
+              "short_name": "28",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Lindarberg",
+              "short_name": "Lindarberg",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Setberg",
+              "short_name": "Setberg",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9222615,
+              64.0605161
+            ],
+            [
+              -21.9222293,
+              64.060502
+            ],
+            [
+              -21.9221917,
+              64.0605208
+            ],
+            [
+              -21.9221381,
+              64.060556
+            ],
+            [
+              -21.9221274,
+              64.0605865
+            ],
+            [
+              -21.9221488,
+              64.0606005
+            ],
+            [
+              -21.9221917,
+              64.0606005
+            ],
+            [
+              -21.9222829,
+              64.0606005
+            ],
+            [
+              -21.9222883,
+              64.0605607
+            ],
+            [
+              -21.9222615,
+              64.0605161
+            ]
+          ]
+        ]
+      },
+      "id": "way/294654377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/295861862",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Hnoðravellir 5, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "5",
+              "short_name": "5",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Hnoðravellir",
+              "short_name": "Hnoðravellir",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Vellir",
+              "short_name": "Vellir",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9666045,
+              64.0427524
+            ],
+            [
+              -21.9657762,
+              64.0428301
+            ],
+            [
+              -21.9658352,
+              64.0429508
+            ],
+            [
+              -21.9666636,
+              64.0428731
+            ],
+            [
+              -21.9666045,
+              64.0427524
+            ]
+          ]
+        ]
+      },
+      "id": "way/295861862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/299558645",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Furuvellir 41, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "41",
+              "short_name": "41",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Furuvellir",
+              "short_name": "Furuvellir",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Vellir",
+              "short_name": "Vellir",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.973556,
+              64.0470865
+            ],
+            [
+              -21.9735246,
+              64.0471415
+            ],
+            [
+              -21.9735274,
+              64.0471839
+            ],
+            [
+              -21.9735778,
+              64.0473236
+            ],
+            [
+              -21.9736458,
+              64.0473575
+            ],
+            [
+              -21.9737209,
+              64.0473458
+            ],
+            [
+              -21.9737799,
+              64.0472589
+            ],
+            [
+              -21.9737501,
+              64.0472376
+            ],
+            [
+              -21.9737222,
+              64.0472128
+            ],
+            [
+              -21.9737209,
+              64.047172
+            ],
+            [
+              -21.9737102,
+              64.0471392
+            ],
+            [
+              -21.9736297,
+              64.0471157
+            ],
+            [
+              -21.973556,
+              64.0470865
+            ]
+          ]
+        ]
+      },
+      "id": "way/299558645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/300878971",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Spóaás 14, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "14",
+              "short_name": "14",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Spóaás",
+              "short_name": "Spóaás",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9566016,
+              64.0545269
+            ],
+            [
+              -21.9568257,
+              64.0544924
+            ],
+            [
+              -21.9567211,
+              64.0543623
+            ],
+            [
+              -21.9564971,
+              64.0543967
+            ],
+            [
+              -21.9566016,
+              64.0545269
+            ]
+          ]
+        ]
+      },
+      "id": "way/300878971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/333661824",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Mávahraun 10, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "10",
+              "short_name": "10",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Mávahraun",
+              "short_name": "Mávahraun",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9434578,
+              64.0744536
+            ],
+            [
+              -21.9435744,
+              64.0744638
+            ],
+            [
+              -21.9436884,
+              64.0744559
+            ],
+            [
+              -21.9437689,
+              64.0744114
+            ],
+            [
+              -21.9437474,
+              64.0743316
+            ],
+            [
+              -21.9436991,
+              64.0742636
+            ],
+            [
+              -21.943608,
+              64.0742331
+            ],
+            [
+              -21.9434564,
+              64.0742269
+            ],
+            [
+              -21.9434564,
+              64.0742738
+            ],
+            [
+              -21.9434685,
+              64.0743222
+            ],
+            [
+              -21.9434618,
+              64.0743747
+            ],
+            [
+              -21.9434041,
+              64.074402
+            ],
+            [
+              -21.9434578,
+              64.0744536
+            ]
+          ]
+        ]
+      },
+      "id": "way/333661824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/438652797",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Ljósaberg 30, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "30",
+              "short_name": "30",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Ljósaberg",
+              "short_name": "Ljósaberg",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9339675,
+              64.0721801
+            ],
+            [
+              -21.9337832,
+              64.0721621
+            ],
+            [
+              -21.9337652,
+              64.0722502
+            ],
+            [
+              -21.93391,
+              64.0722724
+            ],
+            [
+              -21.9339675,
+              64.0721801
+            ]
+          ]
+        ]
+      },
+      "id": "way/438652797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/444457567",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Laufvangur 15, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "15",
+              "short_name": "15",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Laufvangur",
+              "short_name": "Laufvangur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9526966,
+              64.0800492
+            ],
+            [
+              -21.9527102,
+              64.0800141
+            ],
+            [
+              -21.9527071,
+              64.0799786
+            ],
+            [
+              -21.9526875,
+              64.079944
+            ],
+            [
+              -21.9526522,
+              64.079912
+            ],
+            [
+              -21.9526027,
+              64.0798837
+            ],
+            [
+              -21.952541,
+              64.0798605
+            ],
+            [
+              -21.9523287,
+              64.0798341
+            ],
+            [
+              -21.9521732,
+              64.0800861
+            ],
+            [
+              -21.9523693,
+              64.0801746
+            ],
+            [
+              -21.9524438,
+              64.0801668
+            ],
+            [
+              -21.9525135,
+              64.0801528
+            ],
+            [
+              -21.9525758,
+              64.0801333
+            ],
+            [
+              -21.9526283,
+              64.0801089
+            ],
+            [
+              -21.9526691,
+              64.0800805
+            ],
+            [
+              -21.9526966,
+              64.0800492
+            ]
+          ]
+        ]
+      },
+      "id": "way/444457567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/486185050",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Vörðuberg 8, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "8",
+              "short_name": "8",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Vörðuberg",
+              "short_name": "Vörðuberg",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9316167,
+              64.0739416
+            ],
+            [
+              -21.9315935,
+              64.073815
+            ],
+            [
+              -21.931481,
+              64.073819
+            ],
+            [
+              -21.9315041,
+              64.0739455
+            ],
+            [
+              -21.9316167,
+              64.0739416
+            ]
+          ]
+        ]
+      },
+      "id": "way/486185050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/590170283",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Drekavellir 12, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "12",
+              "short_name": "12",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Drekavellir",
+              "short_name": "Drekavellir",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Vellir",
+              "short_name": "Vellir",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9822995,
+              64.0481052
+            ],
+            [
+              -21.9824254,
+              64.0482908
+            ],
+            [
+              -21.9825186,
+              64.0482604
+            ],
+            [
+              -21.9825697,
+              64.0482202
+            ],
+            [
+              -21.9826172,
+              64.0481672
+            ],
+            [
+              -21.9826173,
+              64.048131
+            ],
+            [
+              -21.9825759,
+              64.0481101
+            ],
+            [
+              -21.9824404,
+              64.0481002
+            ],
+            [
+              -21.9822995,
+              64.0481052
+            ]
+          ]
+        ]
+      },
+      "id": "way/590170283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/711094704",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Reykjavikurvegur 15, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "15",
+              "short_name": "15",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Reykjavikurvegur",
+              "short_name": "Reykjavikurvegur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9573646,
+              64.0714612
+            ],
+            [
+              -21.9570751,
+              64.0713621
+            ],
+            [
+              -21.9569142,
+              64.0714521
+            ],
+            [
+              -21.9570269,
+              64.0714906
+            ],
+            [
+              -21.956943,
+              64.0715375
+            ],
+            [
+              -21.9571199,
+              64.071598
+            ],
+            [
+              -21.9573646,
+              64.0714612
+            ]
+          ]
+        ]
+      },
+      "id": "way/711094704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/836154889",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Álfholt 4, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "4",
+              "short_name": "4",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Álfholt",
+              "short_name": "Álfholt",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9805822,
+              64.0561492
+            ],
+            [
+              -21.9798285,
+              64.0560624
+            ],
+            [
+              -21.9796675,
+              64.0563499
+            ],
+            [
+              -21.9798007,
+              64.056354
+            ],
+            [
+              -21.9799338,
+              64.0563494
+            ],
+            [
+              -21.9800638,
+              64.0563362
+            ],
+            [
+              -21.9801879,
+              64.0563147
+            ],
+            [
+              -21.9803075,
+              64.0562839
+            ],
+            [
+              -21.9804147,
+              64.0562455
+            ],
+            [
+              -21.980507,
+              64.0562002
+            ],
+            [
+              -21.9805822,
+              64.0561492
+            ]
+          ]
+        ]
+      },
+      "id": "way/836154889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/836154903",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Háabarð 3, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "3",
+              "short_name": "3",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Háabarð",
+              "short_name": "Háabarð",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.971834,
+              64.0575809
+            ],
+            [
+              -21.9716501,
+              64.0574475
+            ],
+            [
+              -21.9711987,
+              64.0575666
+            ],
+            [
+              -21.9713825,
+              64.0576999
+            ],
+            [
+              -21.971834,
+              64.0575809
+            ]
+          ]
+        ]
+      },
+      "id": "way/836154903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/893313138",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Þrúðvangur 8, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "8",
+              "short_name": "8",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Þrúðvangur",
+              "short_name": "Þrúðvangur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.952073,
+              64.0812401
+            ],
+            [
+              -21.9521108,
+              64.081084
+            ],
+            [
+              -21.9517058,
+              64.0810653
+            ],
+            [
+              -21.951668,
+              64.0812214
+            ],
+            [
+              -21.952073,
+              64.0812401
+            ]
+          ]
+        ]
+      },
+      "id": "way/893313138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/958222453",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Hnotuberg 9, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "9",
+              "short_name": "9",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Hnotuberg",
+              "short_name": "Hnotuberg",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9375998,
+              64.0714302
+            ],
+            [
+              -21.9375569,
+              64.0712872
+            ],
+            [
+              -21.9372455,
+              64.071305
+            ],
+            [
+              -21.9372884,
+              64.0714481
+            ],
+            [
+              -21.9375998,
+              64.0714302
+            ]
+          ]
+        ]
+      },
+      "id": "way/958222453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/976635643",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Hólabraut 7, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "7",
+              "short_name": "7",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Hólabraut",
+              "short_name": "Hólabraut",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9668788,
+              64.0613189
+            ],
+            [
+              -21.9670129,
+              64.0613236
+            ],
+            [
+              -21.9670598,
+              64.0612966
+            ],
+            [
+              -21.9670236,
+              64.0612649
+            ],
+            [
+              -21.9668828,
+              64.0611775
+            ],
+            [
+              -21.9666857,
+              64.0612016
+            ],
+            [
+              -21.9666588,
+              64.0612532
+            ],
+            [
+              -21.9668788,
+              64.0613189
+            ]
+          ]
+        ]
+      },
+      "id": "way/976635643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/976635645",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Lækjarhvammur 11, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "11",
+              "short_name": "11",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Lækjarhvammur",
+              "short_name": "Lækjarhvammur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9607794,
+              64.0597233
+            ],
+            [
+              -21.9605865,
+              64.0595966
+            ],
+            [
+              -21.9599501,
+              64.0597821
+            ],
+            [
+              -21.960143,
+              64.0599087
+            ],
+            [
+              -21.9607794,
+              64.0597233
+            ]
+          ]
+        ]
+      },
+      "id": "way/976635645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/996055978",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Stuðlaskarð 3, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "3",
+              "short_name": "3",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Stuðlaskarð",
+              "short_name": "Stuðlaskarð",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Vellir",
+              "short_name": "Vellir",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9524163,
+              64.0446436
+            ],
+            [
+              -21.9524052,
+              64.0446238
+            ],
+            [
+              -21.952378,
+              64.0446074
+            ],
+            [
+              -21.9523385,
+              64.0445966
+            ],
+            [
+              -21.9523006,
+              64.0445932
+            ],
+            [
+              -21.9522621,
+              64.0445953
+            ],
+            [
+              -21.952227,
+              64.0446025
+            ],
+            [
+              -21.952199,
+              64.0446142
+            ],
+            [
+              -21.9521937,
+              64.0446905
+            ],
+            [
+              -21.9523197,
+              64.0447035
+            ],
+            [
+              -21.9524163,
+              64.0446436
+            ]
+          ]
+        ]
+      },
+      "id": "way/996055978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221388995",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Þúfubarð 7, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "7",
+              "short_name": "7",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Þúfubarð",
+              "short_name": "Þúfubarð",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9684857,
+              64.0578994
+            ],
+            [
+              -21.9685243,
+              64.0579647
+            ],
+            [
+              -21.9685803,
+              64.0579581
+            ],
+            [
+              -21.9685698,
+              64.0578927
+            ],
+            [
+              -21.9684857,
+              64.0578994
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221388995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221389423",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Reynihvammur 2, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "2",
+              "short_name": "2",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Reynihvammur",
+              "short_name": "Reynihvammur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9613215,
+              64.0602173
+            ],
+            [
+              -21.961337,
+              64.0602274
+            ],
+            [
+              -21.9613592,
+              64.0602346
+            ],
+            [
+              -21.9613857,
+              64.0602382
+            ],
+            [
+              -21.9614134,
+              64.0602376
+            ],
+            [
+              -21.9614391,
+              64.0602331
+            ],
+            [
+              -21.9614597,
+              64.060225
+            ],
+            [
+              -21.9614724,
+              64.0602153
+            ],
+            [
+              -21.9614774,
+              64.0602043
+            ],
+            [
+              -21.9614744,
+              64.0601931
+            ],
+            [
+              -21.9613507,
+              64.0600465
+            ],
+            [
+              -21.96134,
+              64.0600363
+            ],
+            [
+              -21.9613225,
+              64.0600281
+            ],
+            [
+              -21.9613001,
+              64.0600226
+            ],
+            [
+              -21.9612749,
+              64.0600205
+            ],
+            [
+              -21.9612495,
+              64.0600219
+            ],
+            [
+              -21.9612246,
+              64.0600272
+            ],
+            [
+              -21.9612052,
+              64.0600359
+            ],
+            [
+              -21.9611935,
+              64.0600469
+            ],
+            [
+              -21.9611198,
+              64.060129
+            ],
+            [
+              -21.9611172,
+              64.0601411
+            ],
+            [
+              -21.961124,
+              64.0601528
+            ],
+            [
+              -21.9611395,
+              64.0601629
+            ],
+            [
+              -21.9611617,
+              64.0601701
+            ],
+            [
+              -21.9611882,
+              64.0601737
+            ],
+            [
+              -21.9613215,
+              64.0602173
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221389423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221389570",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Stekkjarhvammur 3, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "3",
+              "short_name": "3",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Stekkjarhvammur",
+              "short_name": "Stekkjarhvammur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9543579,
+              64.058902
+            ],
+            [
+              -21.9542748,
+              64.0589143
+            ],
+            [
+              -21.9542225,
+              64.0589484
+            ],
+            [
+              -21.9542721,
+              64.0589689
+            ],
+            [
+              -21.9544156,
+              64.0589302
+            ],
+            [
+              -21.9543579,
+              64.058902
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221389570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221389571",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Stekkjarhvammur 35, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "35",
+              "short_name": "35",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Stekkjarhvammur",
+              "short_name": "Stekkjarhvammur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9525001,
+              64.0594365
+            ],
+            [
+              -21.9523248,
+              64.0595112
+            ],
+            [
+              -21.9524098,
+              64.0595494
+            ],
+            [
+              -21.9525852,
+              64.0594748
+            ],
+            [
+              -21.9525001,
+              64.0594365
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221389571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221389650",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Selvogsgata 5, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "5",
+              "short_name": "5",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Selvogsgata",
+              "short_name": "Selvogsgata",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9525978,
+              64.0647081
+            ],
+            [
+              -21.9526166,
+              64.0646671
+            ],
+            [
+              -21.9525817,
+              64.0646647
+            ],
+            [
+              -21.9526058,
+              64.0646096
+            ],
+            [
+              -21.9525307,
+              64.0646331
+            ],
+            [
+              -21.952461,
+              64.0646424
+            ],
+            [
+              -21.9523778,
+              64.0646389
+            ],
+            [
+              -21.9523564,
+              64.0646917
+            ],
+            [
+              -21.9525978,
+              64.0647081
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221389650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221389761",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Kirkjuvellir 5, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "5",
+              "short_name": "5",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Kirkjuvellir",
+              "short_name": "Kirkjuvellir",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Vellir",
+              "short_name": "Vellir",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9822644,
+              64.0500089
+            ],
+            [
+              -21.9821048,
+              64.0501176
+            ],
+            [
+              -21.9821248,
+              64.0501428
+            ],
+            [
+              -21.9823573,
+              64.0501067
+            ],
+            [
+              -21.9824124,
+              64.0500619
+            ],
+            [
+              -21.9822644,
+              64.0500089
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221389761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221390034",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Burknavellir 38, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "38",
+              "short_name": "38",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Burknavellir",
+              "short_name": "Burknavellir",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Vellir",
+              "short_name": "Vellir",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9764847,
+              64.0504015
+            ],
+            [
+              -21.9764462,
+              64.050403
+            ],
+            [
+              -21.9763376,
+              64.0504107
+            ],
+            [
+              -21.9762734,
+              64.0504219
+            ],
+            [
+              -21.9762361,
+              64.0504449
+            ],
+            [
+              -21.9762326,
+              64.0504628
+            ],
+            [
+              -21.9762384,
+              64.0504812
+            ],
+            [
+              -21.9762839,
+              64.0505072
+            ],
+            [
+              -21.9765046,
+              64.0505246
+            ],
+            [
+              -21.9765968,
+              64.0505251
+            ],
+            [
+              -21.9765957,
+              64.0505185
+            ],
+            [
+              -21.9765046,
+              64.0504797
+            ],
+            [
+              -21.9764789,
+              64.0504582
+            ],
+            [
+              -21.9764719,
+              64.0504321
+            ],
+            [
+              -21.9764847,
+              64.0504015
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221390034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221390310",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Drekavellir 29, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "29",
+              "short_name": "29",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Drekavellir",
+              "short_name": "Drekavellir",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Vellir",
+              "short_name": "Vellir",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9760147,
+              64.0437925
+            ],
+            [
+              -21.9760732,
+              64.0439178
+            ],
+            [
+              -21.9763713,
+              64.0438912
+            ],
+            [
+              -21.9763307,
+              64.043853
+            ],
+            [
+              -21.9762915,
+              64.0438253
+            ],
+            [
+              -21.9762403,
+              64.0438071
+            ],
+            [
+              -21.976176,
+              64.0437877
+            ],
+            [
+              -21.9760991,
+              64.043787
+            ],
+            [
+              -21.9760147,
+              64.0437925
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221390310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221390491",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Kvistavellir 42, 221 Reykjavík, Ísland",
+          "google_components": [
+            {
+              "long_name": "42",
+              "short_name": "42",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Kvistavellir",
+              "short_name": "Kvistavellir",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Vellir",
+              "short_name": "Vellir",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Reykjavík",
+              "short_name": "RVK",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.978688,
+              64.0416528
+            ],
+            [
+              -21.9785502,
+              64.0415384
+            ],
+            [
+              -21.9785105,
+              64.0415455
+            ],
+            [
+              -21.9784918,
+              64.0415762
+            ],
+            [
+              -21.9784591,
+              64.0415997
+            ],
+            [
+              -21.9784545,
+              64.0416191
+            ],
+            [
+              -21.9784755,
+              64.0416334
+            ],
+            [
+              -21.9785105,
+              64.0416385
+            ],
+            [
+              -21.9785666,
+              64.0416508
+            ],
+            [
+              -21.9786296,
+              64.0416702
+            ],
+            [
+              -21.978688,
+              64.0416528
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221390491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221390530",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Blikaás 48, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "48",
+              "short_name": "48",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Blikaás",
+              "short_name": "Blikaás",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9550709,
+              64.0560209
+            ],
+            [
+              -21.9549646,
+              64.0558758
+            ],
+            [
+              -21.9548408,
+              64.0558932
+            ],
+            [
+              -21.954947,
+              64.0560383
+            ],
+            [
+              -21.9550709,
+              64.0560209
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221390530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221390815",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Kríuás 13, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "13",
+              "short_name": "13",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Kríuás",
+              "short_name": "Kríuás",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9425383,
+              64.0547065
+            ],
+            [
+              -21.9423441,
+              64.0546438
+            ],
+            [
+              -21.9422779,
+              64.0546432
+            ],
+            [
+              -21.9421886,
+              64.0546641
+            ],
+            [
+              -21.9421531,
+              64.0546843
+            ],
+            [
+              -21.942147,
+              64.0547133
+            ],
+            [
+              -21.9421778,
+              64.0547396
+            ],
+            [
+              -21.9423873,
+              64.0547968
+            ],
+            [
+              -21.9425383,
+              64.0547065
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221390815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221390820",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Þrastarás 9, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "9",
+              "short_name": "9",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Þrastarás",
+              "short_name": "Þrastarás",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9438941,
+              64.0576369
+            ],
+            [
+              -21.9440171,
+              64.0574987
+            ],
+            [
+              -21.9439074,
+              64.057494
+            ],
+            [
+              -21.9437357,
+              64.0575227
+            ],
+            [
+              -21.9436446,
+              64.0575536
+            ],
+            [
+              -21.9436402,
+              64.057616
+            ],
+            [
+              -21.943657,
+              64.0576291
+            ],
+            [
+              -21.9438941,
+              64.0576369
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221390820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221390850",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Hlíðarás 16, 221 Reykjavík, Ísland",
+          "google_components": [
+            {
+              "long_name": "16",
+              "short_name": "16",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Hlíðarás",
+              "short_name": "Hlíðarás",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Reykjavík",
+              "short_name": "RVK",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9378085,
+              64.0563191
+            ],
+            [
+              -21.9378005,
+              64.0565116
+            ],
+            [
+              -21.9378783,
+              64.0565151
+            ],
+            [
+              -21.9379292,
+              64.0565034
+            ],
+            [
+              -21.9379721,
+              64.0564858
+            ],
+            [
+              -21.9380043,
+              64.056447
+            ],
+            [
+              -21.9380365,
+              64.0563907
+            ],
+            [
+              -21.938015,
+              64.0563661
+            ],
+            [
+              -21.9379721,
+              64.0563449
+            ],
+            [
+              -21.9379292,
+              64.0563344
+            ],
+            [
+              -21.9378085,
+              64.0563191
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221390850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221390970",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Furuás 29, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "29",
+              "short_name": "29",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Furuás",
+              "short_name": "Furuás",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9320674,
+              64.0527592
+            ],
+            [
+              -21.932109,
+              64.052737
+            ],
+            [
+              -21.9321444,
+              64.0526911
+            ],
+            [
+              -21.932109,
+              64.0526517
+            ],
+            [
+              -21.9320489,
+              64.0526271
+            ],
+            [
+              -21.9320058,
+              64.052619
+            ],
+            [
+              -21.9319426,
+              64.0526325
+            ],
+            [
+              -21.9319087,
+              64.052675
+            ],
+            [
+              -21.9319087,
+              64.0526945
+            ],
+            [
+              -21.9319719,
+              64.0527329
+            ],
+            [
+              -21.9320166,
+              64.0527569
+            ],
+            [
+              -21.9320674,
+              64.0527592
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221390970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221391941",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Álfaberg 24, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "24",
+              "short_name": "24",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Álfaberg",
+              "short_name": "Álfaberg",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.934429,
+              64.0679731
+            ],
+            [
+              -21.9343653,
+              64.0679817
+            ],
+            [
+              -21.9343206,
+              64.0680125
+            ],
+            [
+              -21.9344184,
+              64.0680737
+            ],
+            [
+              -21.934429,
+              64.0679731
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221391941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221392204",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Hraunhvammur 8, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "8",
+              "short_name": "8",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Hraunhvammur",
+              "short_name": "Hraunhvammur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9554538,
+              64.0730813
+            ],
+            [
+              -21.955419,
+              64.0730544
+            ],
+            [
+              -21.9552554,
+              64.0730004
+            ],
+            [
+              -21.9550086,
+              64.0728949
+            ],
+            [
+              -21.9549898,
+              64.0728515
+            ],
+            [
+              -21.9548155,
+              64.0727917
+            ],
+            [
+              -21.954617,
+              64.0729148
+            ],
+            [
+              -21.9551052,
+              64.0730544
+            ],
+            [
+              -21.9552929,
+              64.0731013
+            ],
+            [
+              -21.9554538,
+              64.0730813
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221392204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221392254",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Klettagata 6, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "6",
+              "short_name": "6",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Klettagata",
+              "short_name": "Klettagata",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Vesturbær",
+              "short_name": "Vesturbær",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.968288,
+              64.0736139
+            ],
+            [
+              -21.968223,
+              64.0735574
+            ],
+            [
+              -21.9680532,
+              64.0735476
+            ],
+            [
+              -21.9680106,
+              64.0735632
+            ],
+            [
+              -21.9681325,
+              64.0736534
+            ],
+            [
+              -21.968288,
+              64.0736139
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221392254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1234749085",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "23P8+GJP, Göngustígur, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "23P8+GJP",
+              "short_name": "23P8+GJP",
+              "types": [
+                "plus_code"
+              ]
+            },
+            {
+              "long_name": "Göngustígur",
+              "short_name": "Göngustígur",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9338288,
+              64.0370819
+            ],
+            [
+              -21.9335457,
+              64.0371113
+            ],
+            [
+              -21.933482,
+              64.0371501
+            ],
+            [
+              -21.9335068,
+              64.0371966
+            ],
+            [
+              -21.9336059,
+              64.0372136
+            ],
+            [
+              -21.9338819,
+              64.0371764
+            ],
+            [
+              -21.9339279,
+              64.0371346
+            ],
+            [
+              -21.9339067,
+              64.0371036
+            ],
+            [
+              -21.9338288,
+              64.0370819
+            ]
+          ]
+        ]
+      },
+      "id": "way/1234749085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1290308216",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Haukahraun 1,, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9463158,
+              64.0739917
+            ],
+            [
+              -21.9462291,
+              64.0738687
+            ],
+            [
+              -21.9461159,
+              64.0738888
+            ],
+            [
+              -21.946084,
+              64.0738888
+            ],
+            [
+              -21.9460575,
+              64.0738819
+            ],
+            [
+              -21.9460221,
+              64.0738587
+            ],
+            [
+              -21.9459902,
+              64.0738478
+            ],
+            [
+              -21.9459548,
+              64.0738517
+            ],
+            [
+              -21.9459053,
+              64.073868
+            ],
+            [
+              -21.945769,
+              64.0739631
+            ],
+            [
+              -21.9462043,
+              64.0740768
+            ],
+            [
+              -21.9463158,
+              64.0739917
+            ]
+          ]
+        ]
+      },
+      "id": "way/1290308216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1328554077",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Stuðlaskarð 13, 221 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "13",
+              "short_name": "13",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Stuðlaskarð",
+              "short_name": "Stuðlaskarð",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Vellir",
+              "short_name": "Vellir",
+              "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "221",
+              "short_name": "221",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -21.9541656,
+              64.0453958
+            ],
+            [
+              -21.9539479,
+              64.0453377
+            ],
+            [
+              -21.9539024,
+              64.0453614
+            ],
+            [
+              -21.9538942,
+              64.0453747
+            ],
+            [
+              -21.9538966,
+              64.0453921
+            ],
+            [
+              -21.9539071,
+              64.0454089
+            ],
+            [
+              -21.9539328,
+              64.0454197
+            ],
+            [
+              -21.9540215,
+              64.0454457
+            ],
+            [
+              -21.9540495,
+              64.0454534
+            ],
+            [
+              -21.9540682,
+              64.0454534
+            ],
+            [
+              -21.954081,
+              64.0454503
+            ],
+            [
+              -21.9541656,
+              64.0453958
+            ]
+          ]
+        ]
+      },
+      "id": "way/1328554077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2005376058",
+        "leisure": "playground",
+        "address": {
+          "google_formatted": "Smyrlahraun 13, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "13",
+              "short_name": "13",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Smyrlahraun",
+              "short_name": "Smyrlahraun",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.9517284,
+          64.0706405
+        ]
+      },
+      "id": "node/2005376058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2280189972",
+        "leisure": "playground",
+        "name": "leikvöllur",
+        "address": {
+          "google_formatted": "Álfholt 46a, 220 Hafnarfjörður, Ísland",
+          "google_components": [
+            {
+              "long_name": "46a",
+              "short_name": "46a",
+              "types": [
+                "street_number"
+              ]
+            },
+            {
+              "long_name": "Álfholt",
+              "short_name": "Álfholt",
+              "types": [
+                "route"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjörður",
+              "short_name": "Hafnarfjörður",
+              "types": [
+                "locality",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Hafnarfjarðarkaupstaður",
+              "short_name": "Hafnarfjarðarkaupstaður",
+              "types": [
+                "administrative_area_level_1",
+                "political"
+              ]
+            },
+            {
+              "long_name": "Ísland",
+              "short_name": "IS",
+              "types": [
+                "country",
+                "political"
+              ]
+            },
+            {
+              "long_name": "220",
+              "short_name": "220",
+              "types": [
+                "postal_code"
+              ]
+            }
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.9812447,
+          64.0572686
+        ]
+      },
+      "id": "node/2280189972"
+    }
+  ]
+}

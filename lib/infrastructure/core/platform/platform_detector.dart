@@ -32,10 +32,13 @@ class PlatformDetector {
   /// Get Google Maps API key from Android manifest metadata (for debugging)
   Future<String?> getGoogleMapsApiKey() async {
     if (!isAndroid) return null;
-    
+
     try {
       const platform = MethodChannel('flutter/platform');
-      final result = await platform.invokeMethod('getMetaData', 'com.google.android.maps.v2.API_KEY');
+      final result = await platform.invokeMethod(
+        'getMetaData',
+        'com.google.android.maps.v2.API_KEY',
+      );
       return result?.toString();
     } catch (e) {
       print('Error getting Google Maps API key: $e');

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ut_ad_leika/domain/locations/entities/location.dart';
 import 'package:ut_ad_leika/domain/locations/entities/location_capability.dart';
+import 'package:ut_ad_leika/domain/core/value_objects/distance_value_object.dart';
 import 'package:ut_ad_leika/presentation/core/navigation/navigation_service.dart';
 import 'package:ut_ad_leika/presentation/core/theme/play_theme.dart';
 import 'package:ut_ad_leika/presentation/core/widgets/atoms/import.dart';
@@ -8,8 +9,9 @@ import 'package:ut_ad_leika/presentation/location_detail/location_detail_page.da
 
 class LocationCard extends StatelessWidget {
   final Location location;
+  final DistanceValueObject? distance;
 
-  const LocationCard({super.key, required this.location});
+  const LocationCard({super.key, required this.location, this.distance});
 
   @override
   Widget build(BuildContext context) {
@@ -75,16 +77,47 @@ class LocationCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // Address
-                    Text(
-                      location.address,
-                      style: const TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.w600,
-                        height: 1.2,
-                      ),
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
+                    // Address and distance
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Text(
+                            location.address,
+                            style: const TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w600,
+                              height: 1.2,
+                            ),
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        ),
+                        if (distance != null) ...[
+                          const SizedBox(width: PlayPaddings.extraSmall),
+                          Container(
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 6,
+                              vertical: 2,
+                            ),
+                            decoration: BoxDecoration(
+                              color: Colors.blue[50],
+                              borderRadius: BorderRadius.circular(4),
+                              border: Border.all(
+                                color: Colors.blue[200]!,
+                                width: 0.5,
+                              ),
+                            ),
+                            child: Text(
+                              distance!.displayText,
+                              style: TextStyle(
+                                fontSize: 10,
+                                color: Colors.blue[700],
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ],
                     ),
 
                     const SizedBox(height: 4),
@@ -172,8 +205,10 @@ class LocationCard extends StatelessWidget {
         return Colors.blue[400] ?? Colors.blue;
       case LocationSize.medium:
         return Colors.orange[400] ?? Colors.orange;
-      case LocationSize.Playrge:
+      case LocationSize.large:
         return Colors.green[400] ?? Colors.green;
+      case LocationSize.unknown:
+        return Colors.grey[400] ?? Colors.grey;
     }
   }
 }

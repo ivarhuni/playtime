@@ -8,12 +8,12 @@ class DebugUtils {
       print('Google Maps API Key: Not available on this platform');
       return;
     }
-    
+
     try {
       // Try to get the API key from AndroidManifest metadata
       const platform = MethodChannel('flutter/platform_views');
       final result = await platform.invokeMethod('getApplicationMetaData');
-      
+
       if (result != null && result is Map) {
         final apiKey = result['com.google.android.maps.v2.API_KEY'];
         print('Google Maps API Key: $apiKey');
@@ -24,4 +24,4 @@ class DebugUtils {
       print('Error getting Google Maps API key: $e');
     }
   }
-} 
+}

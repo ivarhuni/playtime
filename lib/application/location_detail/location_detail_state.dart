@@ -1,11 +1,6 @@
 part of 'location_detail_cubit.dart';
 
-enum LocationDetailStatus {
-  initial,
-  loading,
-  loaded,
-  error,
-}
+enum LocationDetailStatus { initial, loading, loaded, error }
 
 class LocationDetailState extends Equatable {
   final LocationDetailStatus status;
@@ -13,8 +8,8 @@ class LocationDetailState extends Equatable {
   final String? errorMessage;
   final CoordinatesValueObject? userLocation;
   final LocationPermissionStatus permissionStatus;
-  final DistanceValueObject? distanceToLocation;
   final bool isLoadingUserLocation;
+  final DistanceValueObject? distance;
 
   const LocationDetailState._({
     required this.status,
@@ -22,27 +17,21 @@ class LocationDetailState extends Equatable {
     this.errorMessage,
     this.userLocation,
     this.permissionStatus = LocationPermissionStatus.unasked,
-    this.distanceToLocation,
     this.isLoadingUserLocation = false,
+    this.distance,
   });
 
-  const LocationDetailState.initial() : this._(
-    status: LocationDetailStatus.initial,
-  );
+  const LocationDetailState.initial()
+    : this._(status: LocationDetailStatus.initial);
 
-  const LocationDetailState.loading() : this._(
-    status: LocationDetailStatus.loading,
-  );
+  const LocationDetailState.loading()
+    : this._(status: LocationDetailStatus.loading);
 
-  const LocationDetailState.loaded(Location location) : this._(
-    status: LocationDetailStatus.loaded,
-    location: location,
-  );
+  const LocationDetailState.loaded(Location location)
+    : this._(status: LocationDetailStatus.loaded, location: location);
 
-  const LocationDetailState.error(String message) : this._(
-    status: LocationDetailStatus.error,
-    errorMessage: message,
-  );
+  const LocationDetailState.error(String message)
+    : this._(status: LocationDetailStatus.error, errorMessage: message);
 
   LocationDetailState copyWith({
     LocationDetailStatus? status,
@@ -50,8 +39,8 @@ class LocationDetailState extends Equatable {
     String? errorMessage,
     CoordinatesValueObject? userLocation,
     LocationPermissionStatus? permissionStatus,
-    DistanceValueObject? distanceToLocation,
     bool? isLoadingUserLocation,
+    DistanceValueObject? distance,
   }) {
     return LocationDetailState._(
       status: status ?? this.status,
@@ -59,19 +48,20 @@ class LocationDetailState extends Equatable {
       errorMessage: errorMessage ?? this.errorMessage,
       userLocation: userLocation ?? this.userLocation,
       permissionStatus: permissionStatus ?? this.permissionStatus,
-      distanceToLocation: distanceToLocation ?? this.distanceToLocation,
-      isLoadingUserLocation: isLoadingUserLocation ?? this.isLoadingUserLocation,
+      isLoadingUserLocation:
+          isLoadingUserLocation ?? this.isLoadingUserLocation,
+      distance: distance ?? this.distance,
     );
   }
 
   @override
   List<Object?> get props => [
-    status, 
-    location, 
-    errorMessage, 
-    userLocation, 
-    permissionStatus, 
-    distanceToLocation, 
+    status,
+    location,
+    errorMessage,
+    userLocation,
+    permissionStatus,
     isLoadingUserLocation,
+    distance,
   ];
 }

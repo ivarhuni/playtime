@@ -14,7 +14,7 @@ class LocationCapabilityChip extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    
+
     return Container(
       padding: EdgeInsets.all(isCompact ? 6.0 : 8.0),
       decoration: BoxDecoration(
@@ -57,6 +57,8 @@ class LocationCapabilityChip extends StatelessWidget {
         return Icons.sensors; // Represents swinging motion
       case LocationCapability.sandbox:
         return Icons.category; // Represents sandbox/container
+      case LocationCapability.unknown:
+        return Icons.help_outline; // Represents unknown capability
     }
   }
 }
@@ -84,10 +86,12 @@ class LocationCapabilityChipList extends StatelessWidget {
       runSpacing: 4.0,
       alignment: _wrapAlignmentFromMainAxis(alignment),
       children: capabilities
-          .map((capability) => LocationCapabilityChip(
-                capability: capability,
-                isCompact: isCompact,
-              ))
+          .map(
+            (capability) => LocationCapabilityChip(
+              capability: capability,
+              isCompact: isCompact,
+            ),
+          )
           .toList(),
     );
   }
@@ -108,4 +112,4 @@ class LocationCapabilityChipList extends StatelessWidget {
         return WrapAlignment.spaceEvenly;
     }
   }
-} 
+}

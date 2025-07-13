@@ -1,0 +1,20 @@
+[out:json][timeout:25];
+
+// See https://chatgpt.com/share/68730362-7184-8002-9308-2e32ed0b8e96
+// ---------- 1.  Build an area set ---------------------------------------
+//   a) normal lookup by name + tags
+//   b) fallback to the known area ID (3600 + relation 2582273)
+//
+//   The round brackets ( … ) form a union;  ->.searchArea stores the result
+(
+  area
+    ["name"="Hafnarfjörður"]
+    ["boundary"="administrative"]
+    ["admin_level"="6"];
+
+  area(3602582273);
+)->.searchArea;
+
+// ---------- 2.  Fetch every mapped playground inside that area ----------
+nwr(area.searchArea)["leisure"="playground"];
+out center geom;

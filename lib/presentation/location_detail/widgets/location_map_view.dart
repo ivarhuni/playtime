@@ -14,7 +14,7 @@ class LocationMapView extends StatefulWidget {
     super.key,
     required this.location,
     this.userLocation,
-    required this.permissionStatus,
+    this.permissionStatus = LocationPermissionStatus.unasked,
     this.isLoadingUserLocation = false,
   });
 
@@ -58,21 +58,6 @@ class _LocationMapViewState extends State<LocationMapView> {
           icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueRed),
         ),
       );
-
-      // User location marker (if available)
-      final userLocation = widget.userLocation;
-      if (userLocation != null && userLocation.valid) {
-        _markers.add(
-          Marker(
-            markerId: const MarkerId('user_location'),
-            position: LatLng(userLocation.latitude, userLocation.longitude),
-            infoWindow: const InfoWindow(title: 'Your location'),
-            icon: BitmapDescriptor.defaultMarkerWithHue(
-              BitmapDescriptor.hueBlue,
-            ),
-          ),
-        );
-      }
     } catch (e) {
       print('❌ LocationMapView: Error creating markers: $e');
     }
@@ -162,8 +147,10 @@ class _LocationMapViewState extends State<LocationMapView> {
                 zoom: _getInitialZoom(),
               ),
               markers: _markers,
-              myLocationEnabled: false,
-              myLocationButtonEnabled: false,
+              myLocationEnabled:
+                  widget.permissionStatus == LocationPermissionStatus.granted,
+              myLocationButtonEnabled:
+                  widget.permissionStatus == LocationPermissionStatus.granted,
               mapToolbarEnabled: false,
               zoomControlsEnabled: false,
               compassEnabled: true,

@@ -1,7 +1,8 @@
 enum LocationCapability {
   slide('Slide'),
   swing('Swing'),
-  sandbox('Sandbox');
+  sandbox('Sandbox'),
+  unknown('Unknown');
 
   const LocationCapability(this.displayName);
 
@@ -11,9 +12,10 @@ enum LocationCapability {
 enum LocationSize {
   small('Small'),
   medium('Medium'),
-  Playrge('Playrge');
+  large('Large'),
+  unknown('Unknown');
 
   const LocationSize(this.displayName);
 
   final String displayName;
-} 
+}

@@ -16,7 +16,7 @@ class LocationDetailDrawer extends StatelessWidget {
     super.key,
     required this.location,
     this.distance,
-    required this.permissionStatus,
+    this.permissionStatus = LocationPermissionStatus.unasked,
     required this.onOpenInMaps,
     this.onRetryLocation,
   });
@@ -25,7 +25,7 @@ class LocationDetailDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return DraggableScrollableSheet(
       initialChildSize: 0.6, // 60% of screen as specified
-      minChildSize: 0.6,
+      minChildSize: 0.3,
       maxChildSize: 0.9, // Allow full screen coverage
       builder: (context, scrollController) {
         return Container(
@@ -54,12 +54,16 @@ class LocationDetailDrawer extends StatelessWidget {
                     const SizedBox(height: 20),
                     _LocationCapabilities(location: location),
                     const SizedBox(height: 20),
-                    _DistanceSection(
-                      distance: distance,
-                      permissionStatus: permissionStatus,
-                      onRetryLocation: onRetryLocation,
-                    ),
-                    const SizedBox(height: 24),
+                    // Only show distance section if permission is granted and distance is available
+                    if (permissionStatus == LocationPermissionStatus.granted &&
+                        distance != null) ...[
+                      _DistanceSection(
+                        distance: distance,
+                        permissionStatus: permissionStatus,
+                        onRetryLocation: onRetryLocation,
+                      ),
+                      const SizedBox(height: 20),
+                    ],
                     _ActionButtons(onOpenInMaps: onOpenInMaps),
                     const SizedBox(height: 32),
                     const _AdditionalInfo(),
@@ -166,8 +170,10 @@ class _LocationSizeBadge extends StatelessWidget {
         return Colors.blue;
       case LocationSize.medium:
         return Colors.orange;
-      case LocationSize.Playrge:
+      case LocationSize.large:
         return Colors.green;
+      case LocationSize.unknown:
+        return Colors.grey;
     }
   }
 }
@@ -480,18 +486,6 @@ class _AdditionalInfo extends StatelessWidget {
           icon: Icons.access_time,
           title: 'Opening Hours',
           content: 'Open 24/7',
-        ),
-        const SizedBox(height: 12),
-        _InfoCard(
-          icon: Icons.local_parking,
-          title: 'Parking',
-          content: 'Free parking available',
-        ),
-        const SizedBox(height: 12),
-        _InfoCard(
-          icon: Icons.pets,
-          title: 'Pet Policy',
-          content: 'Pets allowed on leash',
         ),
       ],
     );

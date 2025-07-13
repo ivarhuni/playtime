@@ -13,7 +13,6 @@ class LocationDetailPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('🏗️ LocationDetailPage: Building with locationId: $locationId');
     return BlocProvider(
       create: (context) =>
           GetIt.instance<LocationDetailCubit>()..loadLocation(locationId),
@@ -29,46 +28,20 @@ class _LocationDetailPageView extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocBuilder<LocationDetailCubit, LocationDetailState>(
       builder: (context, state) {
-        print('🔄 LocationDetailPageView: State changed - ${state.status}');
-        print(
-          '🔄 LocationDetailPageView: Location: ${state.location?.address}',
-        );
-        print(
-          '🔄 LocationDetailPageView: User Location: ${state.userLocation}',
-        );
-        print(
-          '🔄 LocationDetailPageView: Permission: ${state.permissionStatus}',
-        );
-        print(
-          '🔄 LocationDetailPageView: Distance: ${state.distanceToLocation}',
-        );
-        print(
-          '🔄 LocationDetailPageView: Loading User Location: ${state.isLoadingUserLocation}',
-        );
-
         switch (state.status) {
           case LocationDetailStatus.loading:
-            print('⏳ LocationDetailPageView: Building loading state');
             return const _LoadingStateView();
           case LocationDetailStatus.error:
-            print(
-              '❌ LocationDetailPageView: Building error state: ${state.errorMessage}',
-            );
             return _ErrorStateView(
               error: state.errorMessage ?? 'Unknown error',
             );
           case LocationDetailStatus.loaded:
             final location = state.location;
             if (location != null) {
-              print('✅ LocationDetailPageView: Building loaded state');
               return _LocationView(state: state, location: location);
             }
-            print(
-              '⚠️ LocationDetailPageView: Building initial state - location is null',
-            );
             return const _InitialStateView();
           case LocationDetailStatus.initial:
-            print('⚠️ LocationDetailPageView: Building initial state');
             return const _InitialStateView();
         }
       },
@@ -148,12 +121,16 @@ class _LocationView extends StatelessWidget {
           ),
 
           // Back button overlay
-          const Positioned(top: 16, left: 8, child: _BackButtonOverlay()),
+          Positioned(
+            top: MediaQuery.of(context).padding.top + 8,
+            left: 8,
+            child: const _BackButtonOverlay(),
+          ),
 
           // Draggable detail drawer
           LocationDetailDrawer(
             location: location,
-            distance: state.distanceToLocation,
+            distance: state.distance,
             permissionStatus: state.permissionStatus,
             onOpenInMaps: () =>
                 context.read<LocationDetailCubit>().openInMaps(),
@@ -171,26 +148,22 @@ class _BackButtonOverlay extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Positioned(
-      top: MediaQuery.of(context).padding.top + 8,
-      left: 8,
-      child: Container(
-        decoration: BoxDecoration(
-          color: Colors.white.withOpacity(0.9),
-          shape: BoxShape.circle,
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withOpacity(0.1),
-              blurRadius: 8,
-              offset: const Offset(0, 2),
-            ),
-          ],
-        ),
-        child: IconButton(
-          onPressed: () => Navigator.of(context).pop(),
-          icon: const Icon(Icons.arrow_back),
-          color: Colors.black87,
-        ),
+    return Container(
+      decoration: BoxDecoration(
+        color: Colors.white.withOpacity(0.9),
+        shape: BoxShape.circle,
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.1),
+            blurRadius: 8,
+            offset: const Offset(0, 2),
+          ),
+        ],
+      ),
+      child: IconButton(
+        onPressed: () => Navigator.of(context).pop(),
+        icon: const Icon(Icons.arrow_back),
+        color: Colors.black87,
       ),
     );
   }

@@ -55,6 +55,13 @@ class $AssetsImagesGen {
   List<AssetGenImage> get values => [loveAssistantLogo];
 }
 
+class $AssetsOfflineGen {
+  const $AssetsOfflineGen();
+
+  /// Directory path: assets/offline/geo
+  $AssetsOfflineGeoGen get geo => const $AssetsOfflineGeoGen();
+}
+
 class $AssetsIconsFlagsGen {
   const $AssetsIconsFlagsGen();
 
@@ -1195,6 +1202,16 @@ class $AssetsIllustrationsLightGen {
   ];
 }
 
+class $AssetsOfflineGeoGen {
+  const $AssetsOfflineGeoGen();
+
+  /// File path: assets/offline/geo/hafnarfjordur_playgrounds_geocoded.geojson
+  String get hafnarfjordurPlaygroundsGeocoded => 'assets/offline/geo/hafnarfjordur_playgrounds_geocoded.geojson';
+
+  /// List of all assets
+  List<String> get values => [hafnarfjordurPlaygroundsGeocoded];
+}
+
 class AppAssets {
   const AppAssets._();
 
@@ -1202,6 +1219,7 @@ class AppAssets {
   static const $AssetsIconsGen icons = $AssetsIconsGen();
   static const $AssetsIllustrationsGen illustrations = $AssetsIllustrationsGen();
   static const $AssetsImagesGen images = $AssetsImagesGen();
+  static const $AssetsOfflineGen offline = $AssetsOfflineGen();
 }
 
 class AssetGenImage {
