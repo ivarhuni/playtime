@@ -7,18 +7,26 @@ class PlayFormFieldListener extends StatelessWidget {
   final String fieldId;
   final FocusNode? focus;
 
-  const PlayFormFieldListener({super.key, this.focus, required this.fieldId, required this.child});
+  const PlayFormFieldListener({
+    super.key,
+    this.focus,
+    required this.fieldId,
+    required this.child,
+  });
 
   @override
   Widget build(BuildContext context) {
     return PlayEventBusListener(
-      onMessage: (PlayFormFieldErrorEvent event) {
+      onMessage: (_PlayFormFieldErrorEvent event) {
         if (event.fieldId == fieldId) {
           focus?.requestFocus();
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
               shape: PlayCornerRadius().drawer,
-              content: PlayText(event.message, style: PlayTheme.font.body14.onError),
+              content: PlayText(
+                event.message,
+                style: PlayTheme.font.body14.onError,
+              ),
               behavior: SnackBarBehavior.floating,
               backgroundColor: PlayTheme.error(),
             ),
@@ -31,9 +39,12 @@ class PlayFormFieldListener extends StatelessWidget {
 }
 
 @immutable
-class PlayFormFieldErrorEvent {
+class _PlayFormFieldErrorEvent {
   final String fieldId;
   final String message;
 
-  const PlayFormFieldErrorEvent({required this.fieldId, required this.message});
+  const _PlayFormFieldErrorEvent({
+    required this.fieldId,
+    required this.message,
+  });
 }

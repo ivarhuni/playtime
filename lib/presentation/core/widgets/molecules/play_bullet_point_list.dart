@@ -3,10 +3,7 @@ import 'package:ut_ad_leika/presentation/core/widgets/atoms/import.dart';
 import 'package:ut_ad_leika/presentation/core/widgets/import.dart';
 import 'package:ut_ad_leika/presentation/core/widgets/molecules/import.dart';
 
-enum BulletPointListSize {
-  normal,
-  small,
-}
+enum BulletPointListSize { normal, small }
 
 extension _BulletPointListSizeExtension on BulletPointListSize {
   TextStyle get titleSize {
@@ -46,17 +43,17 @@ extension _BulletPointListSizeExtension on BulletPointListSize {
   }
 }
 
-class BulletPointEntry {
+class _BulletPointEntry {
   final String text;
   final IconData? icon;
   final String? emoji;
 
-  BulletPointEntry({required this.text, this.icon, this.emoji});
+  _BulletPointEntry({required this.text, this.icon, this.emoji});
 }
 
 class PlayBulletPointList extends StatelessWidget {
   final String title;
-  final List<BulletPointEntry> entries;
+  final List<_BulletPointEntry> entries;
   final BulletPointListSize size;
 
   const PlayBulletPointList({
@@ -77,7 +74,7 @@ class PlayBulletPointList extends StatelessWidget {
             PlayText(title, style: size.titleSize),
             PlaySizedBox(height: size.titlePadding),
             ...entries.map(
-              (BulletPointEntry e) => PlayListTile(
+              (_BulletPointEntry e) => PlayListTile(
                 leading: _getLeading(e),
                 title: PlayText(e.text, style: size.entrySize),
               ),
@@ -88,12 +85,9 @@ class PlayBulletPointList extends StatelessWidget {
     );
   }
 
-  Widget _getLeading(BulletPointEntry e) {
+  Widget _getLeading(_BulletPointEntry e) {
     if (e.icon != null) {
-      return PlayIcon(
-        e.icon!,
-        size: PlaySizes.large,
-      );
+      return PlayIcon(e.icon!, size: PlaySizes.large);
     } else if (e.emoji != null) {
       return PlayText(e.emoji ?? "•", style: PlayTheme.font.body20);
     }

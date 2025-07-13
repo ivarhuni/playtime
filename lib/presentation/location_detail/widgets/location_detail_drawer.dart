@@ -26,7 +26,7 @@ class LocationDetailDrawer extends StatelessWidget {
     return DraggableScrollableSheet(
       initialChildSize: 0.6, // 60% of screen as specified
       minChildSize: 0.6,
-      maxChildSize: 1.0, // Allow full screen coverage
+      maxChildSize: 0.9, // Allow full screen coverage
       builder: (context, scrollController) {
         return Container(
           decoration: const BoxDecoration(
@@ -42,24 +42,27 @@ class LocationDetailDrawer extends StatelessWidget {
           ),
           child: Column(
             children: [
-              _buildDragHandle(),
+              const _DrawerDragHandle(),
               Expanded(
                 child: ListView(
                   controller: scrollController,
                   padding: const EdgeInsets.symmetric(horizontal: 20),
                   children: [
-                    _buildLocationHeader(context),
+                    _LocationHeader(location: location),
                     const SizedBox(height: 16),
-                    _buildLocationDetails(context),
+                    _LocationDetails(location: location),
                     const SizedBox(height: 20),
-                    _buildCapabilities(context),
+                    _LocationCapabilities(location: location),
                     const SizedBox(height: 20),
-                    _buildDistanceSection(context),
+                    _DistanceSection(
+                      distance: distance,
+                      permissionStatus: permissionStatus,
+                      onRetryLocation: onRetryLocation,
+                    ),
                     const SizedBox(height: 24),
-                    _buildActionButtons(context),
+                    _ActionButtons(onOpenInMaps: onOpenInMaps),
                     const SizedBox(height: 32),
-                    // Additional content for expanded view
-                    _buildAdditionalInfo(context),
+                    const _AdditionalInfo(),
                     const SizedBox(height: 40), // Extra padding at bottom
                   ],
                 ),
@@ -70,8 +73,13 @@ class LocationDetailDrawer extends StatelessWidget {
       },
     );
   }
+}
 
-  Widget _buildDragHandle() {
+class _DrawerDragHandle extends StatelessWidget {
+  const _DrawerDragHandle({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 12),
       width: 40,
@@ -82,10 +90,17 @@ class LocationDetailDrawer extends StatelessWidget {
       ),
     );
   }
+}
 
-  Widget _buildLocationHeader(BuildContext context) {
+class _LocationHeader extends StatelessWidget {
+  final Location location;
+
+  const _LocationHeader({super.key, required this.location});
+
+  @override
+  Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -99,11 +114,7 @@ class LocationDetailDrawer extends StatelessWidget {
         const SizedBox(height: 8),
         Row(
           children: [
-            Icon(
-              Icons.star,
-              size: 20,
-              color: Colors.amber[600],
-            ),
+            Icon(Icons.star, size: 20, color: Colors.amber[600]),
             const SizedBox(width: 4),
             Text(
               location.starRating.toStringAsFixed(1),
@@ -113,33 +124,63 @@ class LocationDetailDrawer extends StatelessWidget {
               ),
             ),
             const SizedBox(width: 8),
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
-              decoration: BoxDecoration(
-                color: _getSizeColor(location.size).withOpacity(0.1),
-                borderRadius: BorderRadius.circular(12),
-                border: Border.all(
-                  color: _getSizeColor(location.size).withOpacity(0.3),
-                ),
-              ),
-              child: Text(
-                location.size.displayName,
-                style: theme.textTheme.bodySmall?.copyWith(
-                  color: _getSizeColor(location.size),
-                  fontWeight: FontWeight.w600,
-                  fontSize: 11,
-                ),
-              ),
-            ),
+            _LocationSizeBadge(size: location.size),
           ],
         ),
       ],
     );
   }
+}
 
-  Widget _buildLocationDetails(BuildContext context) {
+class _LocationSizeBadge extends StatelessWidget {
+  final LocationSize size;
+
+  const _LocationSizeBadge({super.key, required this.size});
+
+  @override
+  Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    
+    final sizeColor = _getSizeColor(size);
+
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+      decoration: BoxDecoration(
+        color: sizeColor.withOpacity(0.1),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: sizeColor.withOpacity(0.3)),
+      ),
+      child: Text(
+        size.displayName,
+        style: theme.textTheme.bodySmall?.copyWith(
+          color: sizeColor,
+          fontWeight: FontWeight.w600,
+          fontSize: 11,
+        ),
+      ),
+    );
+  }
+
+  Color _getSizeColor(LocationSize size) {
+    switch (size) {
+      case LocationSize.small:
+        return Colors.blue;
+      case LocationSize.medium:
+        return Colors.orange;
+      case LocationSize.Playrge:
+        return Colors.green;
+    }
+  }
+}
+
+class _LocationDetails extends StatelessWidget {
+  final Location location;
+
+  const _LocationDetails({super.key, required this.location});
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
     return Text(
       location.description,
       style: theme.textTheme.bodyMedium?.copyWith(
@@ -148,10 +189,17 @@ class LocationDetailDrawer extends StatelessWidget {
       ),
     );
   }
+}
 
-  Widget _buildCapabilities(BuildContext context) {
+class _LocationCapabilities extends StatelessWidget {
+  final Location location;
+
+  const _LocationCapabilities({super.key, required this.location});
+
+  @override
+  Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -170,10 +218,24 @@ class LocationDetailDrawer extends StatelessWidget {
       ],
     );
   }
+}
 
-  Widget _buildDistanceSection(BuildContext context) {
+class _DistanceSection extends StatelessWidget {
+  final DistanceValueObject? distance;
+  final LocationPermissionStatus permissionStatus;
+  final VoidCallback? onRetryLocation;
+
+  const _DistanceSection({
+    super.key,
+    this.distance,
+    required this.permissionStatus,
+    this.onRetryLocation,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -185,87 +247,201 @@ class LocationDetailDrawer extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 8),
-        _buildDistanceContent(context, theme),
-      ],
-    );
-  }
-
-  Widget _buildDistanceContent(BuildContext context, ThemeData theme) {
-    if (permissionStatus == LocationPermissionStatus.denied ||
-        permissionStatus == LocationPermissionStatus.deniedForever) {
-      return Row(
-        children: [
-          Icon(
-            Icons.location_off,
-            size: 16,
-            color: theme.colorScheme.error,
-          ),
-          const SizedBox(width: 8),
-          Text(
-            'Location permission required',
-            style: theme.textTheme.bodyMedium?.copyWith(
-              color: theme.colorScheme.error,
-            ),
-          ),
-          if (onRetryLocation != null) ...[
-            const SizedBox(width: 8),
-            TextButton(
-              onPressed: onRetryLocation,
-              child: const Text('Enable'),
-            ),
-          ],
-        ],
-      );
-    }
-    
-    if (distance == null || distance!.isInvalid) {
-      return Row(
-        children: [
-          Icon(
-            Icons.location_searching,
-            size: 16,
-            color: theme.colorScheme.onSurfaceVariant,
-          ),
-          const SizedBox(width: 8),
-          Text(
-            'Calculating distance...',
-            style: theme.textTheme.bodyMedium?.copyWith(
-              color: theme.colorScheme.onSurfaceVariant,
-            ),
-          ),
-        ],
-      );
-    }
-    
-    return Row(
-      children: [
-        Icon(
-          Icons.near_me,
-          size: 16,
-          color: theme.colorScheme.primary,
-        ),
-        const SizedBox(width: 8),
-        Text(
-          distance!.displayText,
-          style: theme.textTheme.bodyLarge?.copyWith(
-            fontWeight: FontWeight.w600,
-            color: theme.colorScheme.onSurface,
-          ),
-        ),
-        const SizedBox(width: 4),
-        Text(
-          'from your location',
-          style: theme.textTheme.bodyMedium?.copyWith(
-            color: theme.colorScheme.onSurfaceVariant,
-          ),
+        _DistanceContent(
+          distance: distance,
+          permissionStatus: permissionStatus,
+          onRetryLocation: onRetryLocation,
         ),
       ],
     );
   }
+}
 
-  Widget _buildActionButtons(BuildContext context) {
+class _DistanceContent extends StatelessWidget {
+  final DistanceValueObject? distance;
+  final LocationPermissionStatus permissionStatus;
+  final VoidCallback? onRetryLocation;
+
+  const _DistanceContent({
+    super.key,
+    this.distance,
+    required this.permissionStatus,
+    this.onRetryLocation,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    
+
+    switch (permissionStatus) {
+      case LocationPermissionStatus.granted:
+        final currentDistance = distance;
+        if (currentDistance != null) {
+          return Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: theme.colorScheme.primaryContainer.withOpacity(0.1),
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(
+                color: theme.colorScheme.primary.withOpacity(0.2),
+              ),
+            ),
+            child: Row(
+              children: [
+                Icon(
+                  Icons.location_on,
+                  color: theme.colorScheme.primary,
+                  size: 24,
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Distance from your location',
+                        style: theme.textTheme.bodyMedium?.copyWith(
+                          color: theme.colorScheme.onSurfaceVariant,
+                        ),
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        currentDistance.displayText,
+                        style: theme.textTheme.titleMedium?.copyWith(
+                          fontWeight: FontWeight.w600,
+                          color: theme.colorScheme.primary,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          );
+        } else {
+          return Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: theme.colorScheme.surfaceVariant.withOpacity(0.5),
+              borderRadius: BorderRadius.circular(12),
+            ),
+            child: Row(
+              children: [
+                Icon(
+                  Icons.location_searching,
+                  color: theme.colorScheme.onSurfaceVariant,
+                  size: 24,
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Text(
+                    'Getting your location...',
+                    style: theme.textTheme.bodyMedium?.copyWith(
+                      color: theme.colorScheme.onSurfaceVariant,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          );
+        }
+
+      case LocationPermissionStatus.denied:
+      case LocationPermissionStatus.deniedForever:
+        return Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: theme.colorScheme.errorContainer.withOpacity(0.1),
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(color: theme.colorScheme.error.withOpacity(0.2)),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Icon(
+                    Icons.location_off,
+                    color: theme.colorScheme.error,
+                    size: 24,
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: Text(
+                      'Location permission needed',
+                      style: theme.textTheme.bodyMedium?.copyWith(
+                        color: theme.colorScheme.error,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 8),
+              Text(
+                'Enable location access to see distance',
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: theme.colorScheme.onErrorContainer,
+                ),
+              ),
+              if (onRetryLocation != null) ...[
+                const SizedBox(height: 12),
+                SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: onRetryLocation,
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: theme.colorScheme.error,
+                      foregroundColor: theme.colorScheme.onError,
+                    ),
+                    child: const Text('Enable Location'),
+                  ),
+                ),
+              ],
+            ],
+          ),
+        );
+
+      case LocationPermissionStatus.unasked:
+      default:
+        return Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: theme.colorScheme.surfaceVariant.withOpacity(0.5),
+            borderRadius: BorderRadius.circular(12),
+          ),
+          child: Row(
+            children: [
+              Icon(
+                Icons.location_searching,
+                color: theme.colorScheme.onSurfaceVariant,
+                size: 24,
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Text(
+                  'Checking location...',
+                  style: theme.textTheme.bodyMedium?.copyWith(
+                    color: theme.colorScheme.onSurfaceVariant,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        );
+    }
+  }
+}
+
+class _ActionButtons extends StatelessWidget {
+  final VoidCallback? onOpenInMaps;
+
+  const _ActionButtons({super.key, this.onOpenInMaps});
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
     return SizedBox(
       width: double.infinity,
       child: ElevatedButton.icon(
@@ -276,16 +452,19 @@ class LocationDetailDrawer extends StatelessWidget {
           backgroundColor: theme.colorScheme.primary,
           foregroundColor: theme.colorScheme.onPrimary,
           padding: const EdgeInsets.symmetric(vertical: 16),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(12),
-          ),
         ),
       ),
     );
   }
+}
 
-  Widget _buildAdditionalInfo(BuildContext context) {
+class _AdditionalInfo extends StatelessWidget {
+  const _AdditionalInfo({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     final theme = Theme.of(context);
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -297,60 +476,78 @@ class LocationDetailDrawer extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 16),
-        _buildInfoCard(context, 'Safety', 'All equipment regularly inspected and maintained according to safety standards.'),
+        _InfoCard(
+          icon: Icons.access_time,
+          title: 'Opening Hours',
+          content: 'Open 24/7',
+        ),
         const SizedBox(height: 12),
-        _buildInfoCard(context, 'Age Range', 'Suitable for children ages 2-12 years old.'),
+        _InfoCard(
+          icon: Icons.local_parking,
+          title: 'Parking',
+          content: 'Free parking available',
+        ),
         const SizedBox(height: 12),
-        _buildInfoCard(context, 'Accessibility', 'Wheelchair accessible paths and nearby parking available.'),
-        const SizedBox(height: 12),
-        _buildInfoCard(context, 'Tips', 'Best visited during morning hours for cooler weather and fewer crowds.'),
+        _InfoCard(
+          icon: Icons.pets,
+          title: 'Pet Policy',
+          content: 'Pets allowed on leash',
+        ),
       ],
     );
   }
+}
 
-  Widget _buildInfoCard(BuildContext context, String title, String content) {
+class _InfoCard extends StatelessWidget {
+  final IconData icon;
+  final String title;
+  final String content;
+
+  const _InfoCard({
+    super.key,
+    required this.icon,
+    required this.title,
+    required this.content,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     final theme = Theme.of(context);
+
     return Container(
-      padding: const EdgeInsets.all(12),
+      padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: theme.colorScheme.surfaceVariant.withOpacity(0.3),
-        borderRadius: BorderRadius.circular(8),
-        border: Border.all(
-          color: theme.colorScheme.outline.withOpacity(0.2),
-          width: 0.5,
-        ),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: theme.colorScheme.outline.withOpacity(0.2)),
       ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+      child: Row(
         children: [
-          Text(
-            title,
-            style: theme.textTheme.bodyLarge?.copyWith(
-              fontWeight: FontWeight.w600,
-              color: theme.colorScheme.onSurface,
-            ),
-          ),
-          const SizedBox(height: 4),
-          Text(
-            content,
-            style: theme.textTheme.bodyMedium?.copyWith(
-              color: theme.colorScheme.onSurfaceVariant,
-              height: 1.3,
+          Icon(icon, color: theme.colorScheme.primary, size: 24),
+          const SizedBox(width: 16),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  title,
+                  style: theme.textTheme.bodyMedium?.copyWith(
+                    fontWeight: FontWeight.w500,
+                    color: theme.colorScheme.onSurface,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  content,
+                  style: theme.textTheme.bodySmall?.copyWith(
+                    color: theme.colorScheme.onSurfaceVariant,
+                  ),
+                ),
+              ],
             ),
           ),
         ],
       ),
     );
   }
-
-  Color _getSizeColor(LocationSize size) {
-    switch (size) {
-      case LocationSize.small:
-        return Colors.blue;
-      case LocationSize.medium:
-        return Colors.orange;
-      case LocationSize.Playrge:
-        return Colors.green;
-    }
-  }
-} 
+}

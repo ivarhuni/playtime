@@ -9,10 +9,7 @@ import 'package:ut_ad_leika/presentation/location_detail/location_detail_page.da
 class LocationCard extends StatelessWidget {
   final Location location;
 
-  const LocationCard({
-    super.key,
-    required this.location,
-  });
+  const LocationCard({super.key, required this.location});
 
   @override
   Widget build(BuildContext context) {
@@ -51,7 +48,9 @@ class LocationCard extends StatelessWidget {
                               height: 48,
                               decoration: BoxDecoration(
                                 color: Colors.grey[300],
-                                borderRadius: BorderRadius.circular(PlayCornerRadius.small),
+                                borderRadius: BorderRadius.circular(
+                                  PlayCornerRadius.small,
+                                ),
                               ),
                               child: const Icon(
                                 Icons.location_on,
@@ -68,9 +67,9 @@ class LocationCard extends StatelessWidget {
                         ),
                 ),
               ),
-              
+
               const SizedBox(width: PlayPaddings.small),
-              
+
               // Content
               Expanded(
                 child: Column(
@@ -87,9 +86,9 @@ class LocationCard extends StatelessWidget {
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                     ),
-                    
+
                     const SizedBox(height: 4),
-                    
+
                     // Capabilities and Size
                     Row(
                       children: [
@@ -126,22 +125,23 @@ class LocationCard extends StatelessWidget {
                         ),
                       ],
                     ),
-                    
+
                     const SizedBox(height: 4),
-                    
+
                     // Star rating
                     Row(
                       children: [
                         ...List.generate(5, (index) {
                           final isFilled = index < location.starRating.floor();
-                          final isHalf = index == location.starRating.floor() && 
-                                        location.starRating % 1 >= 0.5;
-                          
+                          final isHalf =
+                              index == location.starRating.floor() &&
+                              location.starRating % 1 >= 0.5;
+
                           return Icon(
                             isHalf ? Icons.star_half : Icons.star,
                             size: 14,
-                            color: isFilled || isHalf 
-                                ? Colors.amber[600] 
+                            color: isFilled || isHalf
+                                ? Colors.amber[600]
                                 : Colors.grey[300],
                           );
                         }),
@@ -169,11 +169,11 @@ class LocationCard extends StatelessWidget {
   Color _getSizeColor(LocationSize size) {
     switch (size) {
       case LocationSize.small:
-        return Colors.blue[400]!;
+        return Colors.blue[400] ?? Colors.blue;
       case LocationSize.medium:
-        return Colors.orange[400]!;
+        return Colors.orange[400] ?? Colors.orange;
       case LocationSize.Playrge:
-        return Colors.green[400]!;
+        return Colors.green[400] ?? Colors.green;
     }
   }
-} 
+}

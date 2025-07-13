@@ -44,6 +44,12 @@ You are working in the **PRESENTATION LAYER** - the user interface and interacti
 - **Extract constants for ALL literals** - no magic numbers or strings in code
 - Implement proper accessibility semantics
 
+## Code Formatting:
+- **ALWAYS end Dart files with a newline** - prevents linter violations and follows Dart style guide
+- Use consistent indentation and spacing
+- Follow Dart formatting conventions
+- Keep lines under 120 characters when possible
+
 ## Widget Organization:
 - **Extract complex UI into separate widget classes** in `feature/widgets/` folder
 - **Use composition over widget-returning methods** for better performance and testability

@@ -60,14 +60,12 @@ class _LocationMapViewState extends State<LocationMapView> {
       );
 
       // User location marker (if available)
-      if (widget.userLocation != null && widget.userLocation!.valid) {
+      final userLocation = widget.userLocation;
+      if (userLocation != null && userLocation.valid) {
         _markers.add(
           Marker(
             markerId: const MarkerId('user_location'),
-            position: LatLng(
-              widget.userLocation!.latitude,
-              widget.userLocation!.longitude,
-            ),
+            position: LatLng(userLocation.latitude, userLocation.longitude),
             infoWindow: const InfoWindow(title: 'Your location'),
             icon: BitmapDescriptor.defaultMarkerWithHue(
               BitmapDescriptor.hueBlue,
@@ -93,9 +91,10 @@ class _LocationMapViewState extends State<LocationMapView> {
   }
 
   Future<void> _fitMarkersIfNeeded() async {
-    if (_controller == null ||
-        widget.userLocation == null ||
-        !widget.userLocation!.valid) {
+    final controller = _controller;
+    final userLocation = widget.userLocation;
+
+    if (controller == null || userLocation == null || !userLocation.valid) {
       return;
     }
 
@@ -103,8 +102,8 @@ class _LocationMapViewState extends State<LocationMapView> {
       // Validate coordinates before creating bounds
       final locationLat = widget.location.latitude;
       final locationLng = widget.location.longitude;
-      final userLat = widget.userLocation!.latitude;
-      final userLng = widget.userLocation!.longitude;
+      final userLat = userLocation.latitude;
+      final userLng = userLocation.longitude;
 
       // Check if coordinates are valid
       if (locationLat.isNaN ||
@@ -126,14 +125,14 @@ class _LocationMapViewState extends State<LocationMapView> {
         ),
       );
 
-      await _controller!.animateCamera(
+      await controller.animateCamera(
         CameraUpdate.newLatLngBounds(bounds, 100.0),
       );
     } catch (e) {
       print('❌ LocationMapView: Error fitting markers: $e');
       // Fallback to simple zoom on location
       try {
-        await _controller!.animateCamera(
+        await controller.animateCamera(
           CameraUpdate.newLatLng(
             LatLng(widget.location.latitude, widget.location.longitude),
           ),
@@ -151,7 +150,7 @@ class _LocationMapViewState extends State<LocationMapView> {
       child: Stack(
         children: [
           if (_hasMapError)
-            _buildErrorState()
+            const _MapErrorStateWidget()
           else
             GoogleMap(
               onMapCreated: _onMapCreated,
@@ -160,9 +159,7 @@ class _LocationMapViewState extends State<LocationMapView> {
                   widget.location.latitude,
                   widget.location.longitude,
                 ),
-                zoom: widget.userLocation != null && widget.userLocation!.valid
-                    ? 12.0
-                    : 14.0,
+                zoom: _getInitialZoom(),
               ),
               markers: _markers,
               myLocationEnabled: false,
@@ -173,53 +170,36 @@ class _LocationMapViewState extends State<LocationMapView> {
               mapType: MapType.normal,
             ),
           if (widget.isLoadingUserLocation)
-            Positioned(
+            const Positioned(
               top: 16,
               right: 16,
-              child: Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 12,
-                  vertical: 8,
-                ),
-                decoration: BoxDecoration(
-                  color: Colors.black54,
-                  borderRadius: BorderRadius.circular(20),
-                ),
-                child: const Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    SizedBox(
-                      width: 16,
-                      height: 16,
-                      child: CircularProgressIndicator(
-                        strokeWidth: 2,
-                        valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
-                      ),
-                    ),
-                    SizedBox(width: 8),
-                    Text(
-                      'Getting location...',
-                      style: TextStyle(color: Colors.white, fontSize: 12),
-                    ),
-                  ],
-                ),
-              ),
+              child: _LocationLoadingOverlay(),
             ),
         ],
       ),
     );
   }
 
-  Widget _buildErrorState() {
+  double _getInitialZoom() {
+    final userLocation = widget.userLocation;
+    return (userLocation != null && userLocation.valid) ? 12.0 : 14.0;
+  }
+}
+
+class _MapErrorStateWidget extends StatelessWidget {
+  const _MapErrorStateWidget({super.key});
+
+  @override
+  Widget build(BuildContext context) {
     return Container(
       color: Colors.grey[200],
-      child: Center(
+      child: const Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Icon(Icons.error_outline, size: 48, color: Colors.grey),
-            const SizedBox(height: 16),
-            const Text(
+            Icon(Icons.error_outline, size: 48, color: Colors.grey),
+            SizedBox(height: 16),
+            Text(
               'Error loading map',
               style: TextStyle(
                 fontSize: 16,
@@ -227,14 +207,47 @@ class _LocationMapViewState extends State<LocationMapView> {
                 fontWeight: FontWeight.w500,
               ),
             ),
-            const SizedBox(height: 8),
+            SizedBox(height: 8),
             Text(
               'Check your internet connection\nand Google Maps API key',
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 12, color: Colors.grey[600]),
+              style: TextStyle(fontSize: 12, color: Colors.grey),
             ),
           ],
         ),
+      ),
+    );
+  }
+}
+
+class _LocationLoadingOverlay extends StatelessWidget {
+  const _LocationLoadingOverlay({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      decoration: BoxDecoration(
+        color: Colors.black54,
+        borderRadius: BorderRadius.circular(20),
+      ),
+      child: const Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          SizedBox(
+            width: 16,
+            height: 16,
+            child: CircularProgressIndicator(
+              strokeWidth: 2,
+              valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+            ),
+          ),
+          SizedBox(width: 8),
+          Text(
+            'Getting location...',
+            style: TextStyle(color: Colors.white, fontSize: 12),
+          ),
+        ],
       ),
     );
   }

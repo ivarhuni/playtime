@@ -38,6 +38,11 @@ You are an Senior Flutter developer.
 - Prefer `const` widgets to reduce rebuilds and improve memory efficiency
 - Extract repeated const values to static const fields
 
+## Null Safety & Code Quality
+- **NEVER use `!` operator** to force unwrap nullable values - use proper null checks, fallbacks, or optional chaining
+- Prefer explicit null handling with `?.`, `??`, and conditional checks
+- Use defensive programming practices to handle null cases gracefully
+
 ALWAYS use:
 - Cubits + BLoC
 - RxDart `BehaviorSubject` streams
@@ -55,3 +60,4 @@ NEVER use:
 - **Mixed feature folders** - each feature must have its own dedicated folder
 - **Inconsistent naming** - folder name must match file prefixes
 - **Non-const constructors** when const is available
+- **`!` operator** to force unwrap nullable values - use proper null handling instead

@@ -4,11 +4,11 @@ import 'package:ut_ad_leika/infrastructure/core/platform/platform_detector.dart'
 import 'package:ut_ad_leika/presentation/core/widgets/atoms/import.dart';
 import 'package:ut_ad_leika/presentation/core/widgets/import.dart';
 
-class AppBarActionDefinition {
+class _AppBarActionDefinition {
   final IconData icon;
   final void Function() onTap;
 
-  AppBarActionDefinition({required this.icon, required this.onTap});
+  _AppBarActionDefinition({required this.icon, required this.onTap});
 
   Widget toWidget() {
     return PlayTapVisual(
@@ -29,10 +29,11 @@ class PlayAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String? title;
   final bool showBack;
   final bool takesUpSpace;
-  final AppBarActionDefinition? action;
+  final _AppBarActionDefinition? action;
 
   @override
-  Size get preferredSize => takesUpSpace ? const Size.fromHeight(kToolbarHeight) : Size.zero;
+  Size get preferredSize =>
+      takesUpSpace ? const Size.fromHeight(kToolbarHeight) : Size.zero;
 
   const PlayAppBar({
     super.key,
@@ -45,7 +46,9 @@ class PlayAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      systemOverlayStyle: takesUpSpace ? PlayTheme.chrome : PlayTheme.chromeNoSpace,
+      systemOverlayStyle: takesUpSpace
+          ? PlayTheme.chrome
+          : PlayTheme.chromeNoSpace,
       actions: action != null ? [action!.toWidget()] : [],
       leading: showBack
           ? InkWell(
@@ -53,7 +56,9 @@ class PlayAppBar extends StatelessWidget implements PreferredSizeWidget {
               child: PlayIcon(Icons.arrow_back, color: PlayTheme.onPrimary()),
             )
           : null,
-      title: title == null ? null : PlayText(title!, style: TextStyle(color: PlayTheme.onPrimary())),
+      title: title == null
+          ? null
+          : PlayText(title!, style: TextStyle(color: PlayTheme.onPrimary())),
       backgroundColor: PlayTheme.primary(),
     );
   }
@@ -68,14 +73,16 @@ class PlayAppBar extends StatelessWidget implements PreferredSizeWidget {
   }
 }
 
-class PlayCupertinoAppBar extends StatelessWidget implements ObstructingPreferredSizeWidget {
+class PlayCupertinoAppBar extends StatelessWidget
+    implements ObstructingPreferredSizeWidget {
   final String? title;
   final bool showBack;
   final bool takesUpSpace;
-  final AppBarActionDefinition? action;
+  final _AppBarActionDefinition? action;
 
   @override
-  Size get preferredSize => takesUpSpace ? const Size.fromHeight(44) : Size.zero;
+  Size get preferredSize =>
+      takesUpSpace ? const Size.fromHeight(44) : Size.zero;
 
   const PlayCupertinoAppBar({
     super.key,
@@ -93,10 +100,7 @@ class PlayCupertinoAppBar extends StatelessWidget implements ObstructingPreferre
     return CupertinoNavigationBar(
       middle: title == null
           ? null
-          : PlayText(
-              title!,
-              style: PlayTheme.onPrimary().text,
-            ),
+          : PlayText(title!, style: PlayTheme.onPrimary().text),
       backgroundColor: PlayTheme.primary(),
       automaticBackgroundVisibility: false,
       trailing: action?.toWidget(),
